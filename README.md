@@ -1,8 +1,8 @@
 # Auditoría independiente de artículos científicos
 
 Este repositorio muestra **190 observaciones** de artículos publicados y revisados por pares.
-Hay **95 consultas pendientes de envío**, sin identificar públicamente esos artículos.
-Hay **1 envío sin confirmar** y **34 enviados esperando diez días**.
+Hay **94 consultas pendientes de envío**, sin identificar públicamente esos artículos.
+Hay **1 envío sin confirmar** y **35 enviados esperando diez días**.
 Los casos aparecen sólo después de verificar Gmail y cumplir diez días completos desde el envío inicial.
 La auditoría fue asistida por IA y combinó lectura, cálculos y, cuando correspondía, código original.
 Cada ficha incluye la observación, su evidencia, sus límites y la fuente pública.
