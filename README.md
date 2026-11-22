@@ -1,8 +1,8 @@
 # Auditoría independiente de artículos científicos
 
 Este repositorio muestra **190 observaciones** de artículos publicados y revisados por pares.
-Hay **61 consultas pendientes de envío**, sin identificar públicamente esos artículos.
-Hay **1 envío sin confirmar** y **68 enviados esperando diez días**.
+Hay **60 consultas pendientes de envío**, sin identificar públicamente esos artículos.
+Hay **1 envío sin confirmar** y **69 enviados esperando diez días**.
 Los casos aparecen sólo después de verificar Gmail y cumplir diez días completos desde el envío inicial.
 La auditoría fue asistida por IA y combinó lectura, cálculos y, cuando correspondía, código original.
 Cada ficha incluye la observación, su evidencia, sus límites y la fuente pública.
@@ -24,7 +24,7 @@ Cada estado describe el seguimiento **sin reproducir correspondencia privada**.
 “Sin evaluación científica registrada” indica ausencia de respuesta sustantiva en nuestros registros.
 Las respuestas automáticas, entregas fallidas y contactos cerrados se distinguen expresamente.
 
-Al corte del **2026-11-21**, los estados son:
+Al corte del **2026-11-22**, los estados son:
 
 - Consulta enviada; sin evaluación científica registrada: 177
 - Consulta reenviada; evaluación pendiente: 1
