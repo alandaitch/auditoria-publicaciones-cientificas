@@ -1,11 +1,11 @@
 {
-  "snapshot_utc": "2026-11-22T00:02:31.389878+00:00",
-  "exported_utc": "2026-11-22T00:02:31.706392+00:00",
+  "snapshot_utc": "2026-11-22T00:07:37.876317+00:00",
+  "exported_utc": "2026-11-22T00:07:38.200247+00:00",
   "count": 190,
   "total_audited": 320,
-  "pending_initial_sends": 60,
+  "pending_initial_sends": 59,
   "uncertain_initial_sends": 1,
-  "sent_awaiting_ten_days": 69,
+  "sent_awaiting_ten_days": 70,
   "method_note": "Independent AI-assisted audit. Observations are bounded and not editorial rulings.",
   "cases": [
     {
