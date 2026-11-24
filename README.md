@@ -16,6 +16,7 @@ La severidad describe la prioridad interna de revisión, no una decisión de la 
 - [Índice navegable](index.html) — disponible también mediante GitHub Pages, si está activado.
 - [Datos detallados en JSON](hallazgos.json).
 - [Tabla resumida en CSV](hallazgos.csv).
+- [Tres comprobaciones reproducibles de código](reproducciones/README.md).
 
 Cada estado describe el seguimiento **sin reproducir correspondencia privada**.
 “Reconocida” refleja una respuesta específica, no una aceptación editorial del artículo completo.
