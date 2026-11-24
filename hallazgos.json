@@ -1,6 +1,6 @@
 {
   "snapshot_utc": "2026-11-24T00:57:43.649054+00:00",
-  "exported_utc": "2026-11-24T00:57:43.936368+00:00",
+  "exported_utc": "2026-11-24T15:10:28.807903+00:00",
   "count": 190,
   "total_audited": 320,
   "pending_initial_sends": 23,
@@ -27,7 +27,8 @@
       ],
       "limits": "Demostramos el mecanismo; no estimamos cuánto cae el rendimiento al corregirlo.",
       "response_status": "Consulta enviada; sin evaluación científica registrada",
-      "public_journal_correction": "No verificada"
+      "public_journal_correction": "No verificada",
+      "technical_issue_url": "https://github.com/priyam-03/GA-Feature-Selector-Lung-Cancer/issues/1"
     },
     {
       "id": "M01",
@@ -588,7 +589,8 @@
       "evidence": "Recreé reparticiones de datos originales. Los 142 sujetos del test ya aparecen en entrenamiento de selección previo.",
       "limits": "El test externo de 95 pacientes sigue separado; no se reentrenaron 10.000 selecciones ni se cuantificó inflación.",
       "response_status": "Consulta enviada; sin evaluación científica registrada",
-      "public_journal_correction": "No verificada"
+      "public_journal_correction": "No verificada",
+      "technical_issue_url": "https://github.com/Yangzi-Chen2023/GC_NC-Res/issues/4"
     },
     {
       "id": "MLX03",
@@ -1132,7 +1134,8 @@
       "evidence": "Ejecuté script original con datos publicados:712 filas y18 predictores. Sólo ocurre un fit global. Media aparente69.44%; validación correcta35.92%, mismas particiones.",
       "limits": "Semilla190 fijada por mí. No recuperé modelo ni semilla originales. No refuta el cálculo independiente del índice de riesgo.",
       "response_status": "Consulta enviada; sin evaluación científica registrada",
-      "public_journal_correction": "No verificada"
+      "public_journal_correction": "No verificada",
+      "technical_issue_url": "https://github.com/ZhenyanZhang/ARG-global/issues/3"
     },
     {
       "id": "XM24",
