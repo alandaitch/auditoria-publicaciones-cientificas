@@ -5,7 +5,9 @@ Hay **8 consultas pendientes de envío**, sin identificar públicamente esos art
 Hay **1 envío sin confirmar** y **121 enviados esperando diez días**.
 Los casos aparecen sólo después de verificar Gmail y cumplir diez días completos desde el envío inicial.
 La auditoría fue asistida por IA y combinó lectura, cálculos y, cuando correspondía, código original.
-Cada ficha incluye la observación, su evidencia, sus límites y la fuente pública.
+Cada ficha identifica la afirmación del estudio, la observación y su posible consecuencia.
+El recuento de citas corresponde a la fuente y fecha indicadas en cada ficha.
+«Sin recuento verificado» indica que falta una cifra comprobada.
 
 **Estas observaciones no son dictámenes editoriales.** Algunas requieren datos o aclaraciones adicionales.
 No implican fraude, mala conducta, invalidez general del artículo ni consecuencias clínicas demostradas.
