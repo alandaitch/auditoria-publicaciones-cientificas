@@ -7,9 +7,9 @@ Enviamos la observación a sus autores. Si aparece evidencia que cambia nuestra 
 [Explorá el experimento](https://alandaitch.github.io/auditoria-publicaciones-cientificas/) · [Preguntas frecuentes](https://alandaitch.github.io/auditoria-publicaciones-cientificas/#preguntas)
 
 El sitio muestra **190 observaciones públicas**.
-Otras **125** esperan que pasen diez días completos desde el envío verificado.
+Otras **126** esperan que pasen diez días completos desde el envío verificado.
 Ese plazo corresponde a publicar nuestra ficha. La revista tiene su propio proceso de corrección.
-Las consultas pendientes de envío suman **4**.
+Las consultas pendientes de envío suman **3**.
 Las consultas cuyo envío falta confirmar suman **1**.
 El sitio muestra ambos grupos como totales.
 
