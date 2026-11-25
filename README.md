@@ -1,21 +1,25 @@
 # Auditoría independiente de artículos científicos
 
-Este repositorio muestra **190 observaciones** de artículos publicados y revisados por pares.
-Hay **5 consultas pendientes de envío**, sin identificar públicamente esos artículos.
-Hay **1 envío sin confirmar** y **124 enviados esperando diez días**.
-Los casos aparecen sólo después de verificar Gmail y cumplir diez días completos desde el envío inicial.
-La auditoría fue asistida por IA y combinó lectura, cálculos y, cuando correspondía, código original.
-Cada ficha identifica la afirmación del estudio, la observación y su posible consecuencia.
-El recuento de citas corresponde a la fuente y fecha indicadas en cada ficha.
-«Sin recuento verificado» indica que falta una cifra comprobada.
+¿Puede la inteligencia artificial encontrar errores comprobables en artículos que ya pasaron revisión científica?
+Alan Daitch impulsa este experimento. Contrastamos afirmaciones concretas con tablas, cálculos o código del estudio.
+Enviamos la observación a sus autores. Si aparece evidencia que cambia nuestra interpretación, rectificamos la ficha.
 
-**Estas observaciones no son dictámenes editoriales.** Algunas requieren datos o aclaraciones adicionales.
-No implican fraude, mala conducta, invalidez general del artículo ni consecuencias clínicas demostradas.
-La severidad describe la prioridad interna de revisión, no una decisión de la revista.
+[Explorá el experimento](https://alandaitch.github.io/auditoria-publicaciones-cientificas/) · [Preguntas frecuentes](https://alandaitch.github.io/auditoria-publicaciones-cientificas/#preguntas)
+
+El sitio muestra **190 observaciones públicas**.
+Otras **124** esperan que pasen diez días completos desde el envío verificado.
+Ese plazo corresponde a publicar nuestra ficha. La revista tiene su propio proceso de corrección.
+Las consultas pendientes de envío suman **5**.
+Las consultas cuyo envío falta confirmar suman **1**.
+El sitio muestra ambos grupos como totales.
+
+Cada ficha explica la afirmación, nuestra observación y qué cambiaría si se comprueba.
+Las citas cuentan publicaciones que referencian el artículo. Cada recuento indica su fuente y fecha.
+La prioridad indica qué observaciones revisamos primero.
 
 ## Consultar
 
-- [Índice navegable](index.html) — disponible también mediante GitHub Pages, si está activado.
+- [Explorador de fichas públicas](https://alandaitch.github.io/auditoria-publicaciones-cientificas/#explorar).
 - [Datos detallados en JSON](hallazgos.json).
 - [Tabla resumida en CSV](hallazgos.csv).
 - [Tres comprobaciones reproducibles de código](reproducciones/README.md).
