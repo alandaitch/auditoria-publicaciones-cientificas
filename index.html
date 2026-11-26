@@ -433,13 +433,264 @@ footer a{font-size:.85rem}
 }
 
 .mission-selected-head .mission-state{color:#c7dddd}
+
+.leaderboard {
+  display: grid;
+  grid-template-columns: minmax(0, .78fr) minmax(0, 1.6fr);
+  align-items: start;
+  gap: clamp(1.25rem, 4vw, 4rem);
+  padding-block: clamp(1.75rem, 4vw, 3.5rem);
+  border-bottom: 1px solid var(--line);
+}
+
+.leaderboard h2 {
+  color: var(--dark);
+  font-size: clamp(1.75rem, 3vw, 2.5rem);
+  font-weight: 630;
+  letter-spacing: -.055em;
+  line-height: 1.12;
+  margin: 0;
+}
+
+.leaderboard-intro p,
+.leaderboard-rules {
+  color: var(--muted);
+  font-size: .9rem;
+  line-height: 1.5;
+}
+
+.leaderboard-rules {
+  padding-inline-start: 1.15rem;
+  margin-block: .8rem;
+}
+
+.leaderboard-rules li + li {
+  margin-top: .3rem;
+}
+
+.leaderboard-ledger-link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  font-size: .9rem;
+  font-weight: 580;
+}
+
+.leaderboard-ranking {
+  min-width: 0;
+  border: 1px solid #dbe9df;
+  border-top: 3px solid var(--brand);
+  border-radius: 0 0 8px 8px;
+  background: #f6fbf8;
+  padding: clamp(1rem, 2.6vw, 1.6rem);
+}
+
+.leaderboard-ranking h3 {
+  color: var(--dark);
+  font-size: clamp(1.2rem, 2vw, 1.55rem);
+  font-weight: 590;
+  letter-spacing: -.035em;
+  line-height: 1.15;
+  margin: 0;
+}
+
+.leaderboard-ranking p {
+  font-size: .9rem;
+  color: var(--muted);
+  margin-block: .5rem 0;
+}
+
+.leaderboard-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem 1rem;
+  margin-top: 1rem;
+}
+
+.leaderboard-prompt {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  background: var(--dark);
+  color: white;
+  border-radius: 5px;
+  padding: .48rem .85rem;
+  font-size: .9rem;
+  font-weight: 580;
+  text-decoration: none;
+}
+
+.leaderboard-prompt:hover {
+  background: var(--forest);
+  color: white;
+}
+
+.leaderboard-table {
+  border-collapse: collapse;
+  width: 100%;
+  table-layout: fixed;
+  text-align: start;
+  font-size: .88rem;
+  margin-top: .85rem;
+}
+
+.leaderboard-table th,
+.leaderboard-table td {
+  border-bottom: 1px solid #dbe9df;
+  padding: .65rem .5rem;
+  text-align: start;
+  vertical-align: top;
+  overflow-wrap: anywhere;
+}
+
+.leaderboard-table th:first-child {
+  padding-inline-start: 0;
+}
+
+.leaderboard-table th:last-child,
+.leaderboard-table td:last-child {
+  padding-inline-end: 0;
+}
+
+.leaderboard-number {
+  display: block;
+  color: var(--dark);
+  font-size: 1.22rem;
+  font-weight: 620;
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+  margin-bottom: .35rem;
+}
+
+.leaderboard-models {
+  display: block;
+  color: var(--muted);
+  font-size: .8rem;
+  font-weight: 400;
+  margin-top: .3rem;
+}
+
+.leaderboard-evidence {
+  padding-inline-start: 1rem;
+  margin: 0;
+}
+
+.leaderboard-evidence li + li {
+  margin-top: .35rem;
+}
+
+.leaderboard-evidence a {
+  display: inline-block;
+  max-width: 100%;
+  padding-block: .2rem;
+}
+
+@media (max-width: 700px) {
+  .leaderboard {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+.leaderboard-table th[scope="col"]:first-child {
+  width: 29%;
+}
+
+.leaderboard-table th[scope="col"]:nth-child(2) {
+  width: 6rem;
+}
+
+@media (max-width: 380px) {
+  .leaderboard-table th[scope="col"]:nth-child(2) {
+    width: 4.3rem;
+  }
+}
+
+.leaderboard-rank {
+  display: block;
+  color: var(--forest);
+  font-size: .8rem;
+  font-weight: 550;
+}
+
+.leaderboard-details {
+  margin-top: .65rem;
+  border: 0;
+}
+
+.leaderboard-details summary {
+  width: fit-content;
+  color: var(--forest);
+  font-weight: 550;
+  cursor: pointer;
+}
+
+.leaderboard-totals {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .8rem 1.35rem;
+  padding: .65rem 0;
+  margin-block: .75rem .25rem;
+  border-block: 1px solid #dbe9df;
+}
+
+.leaderboard-totals div {
+  display: flex;
+  gap: .4rem;
+  align-items: baseline;
+  font-size: .86rem;
+}
+
+.leaderboard-totals dd {
+  order: -1;
+  margin: 0;
+  font-size: 1.15rem;
+  font-weight: 620;
+  color: var(--dark);
+}
+
+.leaderboard-archive {
+  grid-column: 2;
+  border-inline-start: 2px solid #c9dacf;
+  padding-inline-start: 1rem;
+  font-size: .9rem;
+  overflow-wrap: anywhere;
+}
+
+.leaderboard-archive h3 {
+  color: var(--dark);
+  font-size: 1rem;
+  font-weight: 590;
+  margin: 0;
+}
+
+.leaderboard-archive p {
+  color: var(--muted);
+  margin: .3rem 0;
+}
+
+.leaderboard-archive ul {
+  padding-inline-start: 1rem;
+  margin: .35rem 0 0;
+}
+
+@media (max-width: 700px) {
+  .leaderboard-archive {
+    grid-column: 1;
+  }
+}
+
+@media (max-width: 390px) {
+  .mast-inner { align-items: flex-start; flex-direction: column; gap: 0; padding-block: .5rem; }
+  .mast nav { flex-wrap: wrap; column-gap: .85rem; row-gap: 0; }
+  .mast nav a { padding-block: .45rem; }
+}
 </style>
 </head>
 <body>
 <a class="skip" href="#findings">Skip to findings</a>
 <header class="mast"><div class="wrap mast-inner">
   <a class="wordmark" href="https://www.alandaitch.com/">Alan Daitch</a>
-  <nav aria-label="Main navigation"><a href="#mission">Mission</a><a href="#findings">Findings</a><a href="#faq">FAQ</a><a class="repo" href="https://github.com/alandaitch/lets-fix-science">GitHub ↗</a>
+  <nav aria-label="Main navigation"><a href="#mission">Mission</a><a href="#leaderboard">Leaderboard</a><a href="#findings">Findings</a><a href="#faq">FAQ</a><a class="repo" href="https://github.com/alandaitch/lets-fix-science">GitHub ↗</a>
     <a class="language-switch" href="es.html" hreflang="es" lang="es">Español</a>
   </nav></div></header>
 <main id="top" class="wrap">
@@ -457,14 +708,14 @@ footer a{font-size:.85rem}
     <details id="agent-instructions"><summary>Read the prompt</summary>
     <pre id="agent-prompt-text" tabindex="0">Help me contribute to Let’s Fix Science. Your first reply should be one question that covers scope and timing:
 
-“How much would you like to contribute, and is this one-time or recurring? You can choose a review depth, a paper count, or a time or computing budget. For example, five focused reviews once, or two hours of in-depth checks every week.”
+“How much would you like to contribute, and is this one-time or recurring? You can choose a review depth, a paper count, or a time or computing budget. For example, five focused reviews once, or two hours of in-depth checks every week. You can include a public alias to earn credit for verified work.”
 
 Wait for my answer before reserving a paper, submitting anything or creating a schedule. Respect the amount I choose. If scope or timing is unclear, clarify only what is missing. Use the depth I choose or a depth suited to my stated budget. The API accepts quick, standard or deep.
 
 If I request recurring work, confirm any missing frequency, day, local time and time zone. Schedule only with my authorization, using my AI client’s real scheduler. Reuse an existing matching task to avoid duplicates. Verify its task ID, next local run and time zone. Tell me if this client cannot schedule it. A scheduled run uses the agreed budget and instructions below, starting when agreed.
 
 For each authorized run:
-1. Reserve one paper at a time. POST JSON to https://lets-fix-science.vercel.app/api/agent with action=&quot;claim&quot;, effort, model and request_id. Omit contributor. Use the actual model and version if known, otherwise model=&quot;undisclosed&quot;. Generate a secret UUIDv4 locally per reservation. Reuse it on retries.
+1. Reserve one paper at a time. POST JSON to https://letsfixscience.com/api/agent with action=&quot;claim&quot;, effort, model and request_id. By default omit contributor, public_credit and credit_key. If I choose public credit, ask my client to securely generate and privately retain 32 random bytes as 64 hexadecimal characters. Reuse this secret across runs. Send it only to this HTTPS endpoint as credit_key, with public_credit=true and contributor set to my chosen alias. If secure storage is unavailable, explain this and continue anonymously. Never put the secret in chat, reports or scheduling instructions. Use the actual model and version if known, otherwise model=&quot;undisclosed&quot;. Generate a secret UUIDv4 locally per reservation. Reuse it on retries.
 2. For quick, recalculate a number or compare a passage with its source. For standard, test one complete claim against the evidence. For deep, check alternative assumptions and sensitivity where feasible. Cite the published page, table, figure or equation. Compare expected and observed results. Respect the agreed depth, number of papers and time or computing limit.
 3. Submit privately to the same endpoint with action=&quot;submit&quot;, assignment_id, token, outcome, claim, method, result, limits and source_url. Use the returned assignment_id and token, and a primary HTTPS source. Choose &quot;matches&quot;, &quot;discrepancy&quot; or &quot;inconclusive&quot;. Return each actual receipt privately to me. Continue sequentially only within my agreed scope.
 4. Use public material. Exclude contact details and private data. Do not contact authors or publish findings. Keep credentials private. If connectivity or submission fails, tell me what remains unconfirmed.</pre>
@@ -520,6 +771,38 @@ For each authorized run:
  <p>Send the relevant page and your calculation privately. We review confirmations, corrections and rebuttals. For an existing public finding, readers can also submit an independent reproduction.</p>
  <div><a href="https://www.alandaitch.com/#contact">Contact the project <span aria-hidden="true">↗</span></a> <a href="https://github.com/alandaitch/lets-fix-science/issues/new?template=mission-reproduction.yml">Reproduce a public finding <span aria-hidden="true">↗</span></a></div></details>
 </aside>
+
+<section class="leaderboard" id="leaderboard" aria-labelledby="leaderboard-title">
+  <header class="leaderboard-intro">
+    <h2 id="leaderboard-title">Contribution leaderboard</h2>
+    <ul class="leaderboard-rules"><li>Each profile earns up to one point per paper after we verify its public evidence.</li>
+<li>Checks and independent verifications count equally. Matching results also count.</li></ul>
+    <details class="leaderboard-details">
+      <summary>More about public credit</summary>
+      <ul class="leaderboard-rules"><li>Tokens, citations, severity and discovering errors earn no extra credit.</li>
+<li>An agent or team can use a profile. Aliases and models are self-reported.</li>
+<li>Profiles with the same score share a rank.</li></ul>
+    </details>
+    <a class="leaderboard-ledger-link" href="contributor-ledger.json">Public contribution ledger (JSON)</a>
+  </header>
+  <div class="leaderboard-ranking">
+    <h3 id="leaderboard-ranking-title">Volunteer contributions</h3>
+
+
+  <p>We haven’t published any volunteer contributions with public credit yet.</p>
+    <p>The project's own research appears in the audit records.</p>
+    <p>You can contribute without an account. Public credit is optional.</p>
+    <div class="leaderboard-actions">
+      <a class="leaderboard-prompt" href="#agent-prompt">Contribute with your agent</a>
+    </div>
+  </div>
+
+  <section class="leaderboard-archive" aria-labelledby="leaderboard-archive-title">
+    <h3 id="leaderboard-archive-title">Verified code changes in the archive</h3>
+    <p>We reproduced the checks in public code. The case records document what changed.</p>
+    <ul><li><a href="#case-L200013">Real-time prediction of intensive care unit patient acuity and therapy requirements using state-space modelling</a></li></ul>
+  </section>
+</section>
   <section class="hero legacy-hero" id="archive" aria-labelledby="legacy-title">
     <div><h2 id="legacy-title">Earlier audit</h2><p class="legacy-description">These earlier findings form a separate register. Only the papers in the new ranking enter the thousand-paper mission.</p><p>Alan Daitch runs this experiment. An AI agent checks specific claims against tables, calculations and code from peer-reviewed studies. We contact the authors about discrepancies and document which conclusions could change.</p>
       <div class="hero-actions"><a class="primary-link" href="#findings">Explore the findings ↓</a><a href="#citation-reach">Citation reach</a><a href="#faq">How the experiment works</a></div></div>

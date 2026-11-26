@@ -18,6 +18,8 @@ The roster contains **1,000 works**, with **32,252,668 citation links**.
 The final included work received **15,782 citations** at the snapshot.
 Counts reflect OpenAlex coverage, record linkage and our documented selection criteria.
 A citation refers to a work. Determining reliance on a particular claim requires reading it.
+[Contributor leaderboard](https://letsfixscience.com/#leaderboard) · [Download public credits](contributor-ledger.json)
+
 [Download the dated list and current statuses](mission.json) · [Inspect the source query](https://api.openalex.org/works?filter=to_publication_date%3A2025-12-31%2Ccited_by_count%3A%3E13622&sort=cited_by_count%3Adesc&per_page=100).
 
 ## Reading the map

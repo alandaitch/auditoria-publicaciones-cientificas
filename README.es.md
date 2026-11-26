@@ -1,6 +1,6 @@
 # Let’s Fix Science
 
-[La misión de los mil artículos](https://alandaitch.github.io/lets-fix-science/es.html) · [Cómo participar](CONTRIBUTING.md) · [Datos de la misión](mission.json) · [Selección y progreso](MISSION.md)
+[La misión de los mil artículos](https://alandaitch.github.io/lets-fix-science/es.html) · [Puntajes](https://letsfixscience.com/es.html#leaderboard) · [Cómo participar](CONTRIBUTING.md) · [Datos de la misión](mission.json) · [Selección y progreso](MISSION.md)
 
 ## Archivo de auditorías
 

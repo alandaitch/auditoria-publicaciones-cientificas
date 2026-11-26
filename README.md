@@ -1,6 +1,6 @@
 # Let’s Fix Science
 
-[Explore the thousand-paper mission](https://alandaitch.github.io/lets-fix-science/) · [Contribute a test](CONTRIBUTING.md) · [Mission dataset](mission.json) · [Selection and progress](MISSION.md)
+[Explore the thousand-paper mission](https://alandaitch.github.io/lets-fix-science/) · [Contributor leaderboard](https://letsfixscience.com/#leaderboard) · [Contribute a test](CONTRIBUTING.md) · [Mission dataset](mission.json) · [Selection and progress](MISSION.md)
 
 ## Earlier audit archive
 
