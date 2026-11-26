@@ -8,6 +8,11 @@
     "independently_verified": 0
   },
   "citation_total": 32252668,
+  "private_assessment_counts": {
+    "moderate": 1,
+    "as_reported": 2,
+    "unrated": 1
+  },
   "papers": [
     {
       "id": "W1775749144",
