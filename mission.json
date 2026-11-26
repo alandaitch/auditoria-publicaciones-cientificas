@@ -1,4 +1,15 @@
 {
+  "map_activity": {
+    "counts": {
+      "observation": 8,
+      "waiting": 0,
+      "review": 54,
+      "checked": 10,
+      "open": 928
+    },
+    "documented_observations": 4,
+    "unverified_observations": 4
+  },
   "date": "2026-11-26",
   "source_url": "https://api.openalex.org/works?filter=to_publication_date%3A2025-12-31%2Ccited_by_count%3A%3E13622&sort=cited_by_count%3Adesc&per_page=100",
   "progress": {
@@ -176,7 +187,8 @@
       },
       "assessment": {
         "outcome": "as_reported"
-      }
+      },
+      "public_map_stage": "checked"
     },
     {
       "id": "W2083222334",
@@ -879,7 +891,8 @@
       },
       "assessment": {
         "outcome": "as_reported"
-      }
+      },
+      "public_map_stage": "checked"
     },
     {
       "id": "W2125435699",
@@ -898,7 +911,8 @@
       },
       "assessment": {
         "outcome": "as_reported"
-      }
+      },
+      "public_map_stage": "checked"
     },
     {
       "id": "W2100379340",
@@ -2909,7 +2923,8 @@
       },
       "assessment": {
         "outcome": "as_reported"
-      }
+      },
+      "public_map_stage": "checked"
     },
     {
       "id": "W2096998881",
@@ -3072,7 +3087,8 @@
       },
       "assessment": {
         "outcome": "as_reported"
-      }
+      },
+      "public_map_stage": "checked"
     },
     {
       "id": "W2011254969",
@@ -4939,7 +4955,8 @@
       },
       "assessment": {
         "outcome": "as_reported"
-      }
+      },
+      "public_map_stage": "checked"
     },
     {
       "id": "W2165010366",

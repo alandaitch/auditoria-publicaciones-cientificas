@@ -29,10 +29,9 @@ The project has documented tests for **66** of these 1,000 papers.
 **0** have a published independent verification through this mission.
 Each paper counts once, even when several tests concern the same work.
 The historical comparison uses the checked edition, bibliographic identifiers and original test records.
-The map opens on public results. Switch to severity to see which conclusions a discrepancy affects.
-A minor discrepancy changes a local detail. A moderate discrepancy affects a particular result.
-A major discrepancy undermines a central conclusion. Unrated means the impact remains unquantified.
-Open a cell to see which claim was tested. Switch to progress for the review stage.
+Each square counts one paper. Squares are grouped by status, with no link between position and citation rank.
+The observation total distinguishes documented observations from reports awaiting verification. An author must have been contacted before the paper can count as waiting for a reply.
+Select a status to see its meaning and any public paper records. The directory retains citation order.
 
 - **Only bibliography is public** means the map can show this paper's bibliographic record.
 - **Test registered** identifies a public test plan. Inconclusive tests remain open.
@@ -54,8 +53,8 @@ Hay **66** artículos con pruebas documentadas dentro de estos mil.
 **60** entran sólo en el total porque sus expedientes siguen siendo privados.
 Hay **0** verificaciones independientes públicas dentro de la misión.
 El recuento considera la edición examinada y cuenta cada artículo una sola vez.
-El mapa distingue gravedad leve, moderada o grave según el alcance demostrado.
-Un detalle local, un resultado específico y una conclusión central corresponden a esos tres niveles.
-La vista de avance muestra el estado de revisión.
+Cada cuadrado cuenta un artículo y se agrupa por estado. El directorio conserva el orden de citas.
+El mapa distingue observaciones documentadas e informes pendientes de verificación.
+La espera del autor requiere un envío comprobado y un hilo sin respuesta registrada.
 
 [Contribute / Participá](CONTRIBUTING.md)
