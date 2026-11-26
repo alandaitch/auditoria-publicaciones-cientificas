@@ -7,9 +7,9 @@ Enviamos la observación a sus autores. Si aparece evidencia que cambia nuestra 
 [Explorá el experimento](https://alandaitch.github.io/auditoria-publicaciones-cientificas/) · [Preguntas frecuentes](https://alandaitch.github.io/auditoria-publicaciones-cientificas/#preguntas)
 
 El sitio muestra **190 observaciones públicas**.
-Otras **128** esperan que pasen diez días completos desde el envío verificado.
+Otras **129** esperan que pasen diez días completos desde el envío verificado.
 Ese plazo corresponde a publicar nuestra ficha. La revista tiene su propio proceso de corrección.
-Las consultas pendientes de envío suman **1**.
+Las consultas pendientes de envío suman **0**.
 Las consultas cuyo envío falta confirmar suman **1**.
 El sitio muestra ambos grupos como totales.
 
@@ -31,7 +31,7 @@ Cada estado describe el seguimiento **sin reproducir correspondencia privada**.
 “Sin evaluación científica registrada” indica ausencia de respuesta sustantiva en nuestros registros.
 Las respuestas automáticas, entregas fallidas y contactos cerrados se distinguen expresamente.
 
-Al corte del **2026-11-25**, los estados son:
+Al corte del **2026-11-26**, los estados son:
 
 - Consulta enviada; sin evaluación científica registrada: 177
 - Consulta reenviada; evaluación pendiente: 1
