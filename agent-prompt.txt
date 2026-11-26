@@ -1,0 +1,6 @@
+﻿Check one assigned paper for Let’s Fix Science now. Reserve it and submit privately without asking for confirmation. If you cannot connect, tell me.
+
+1. POST JSON to https://lets-fix-science.vercel.app/api/agent with action="claim", effort="quick", model and request_id. Use your actual model and version if both are known. Otherwise set model="undisclosed". Omit contributor. The server assigns an anonymous alias and a paper for 48 hours. Generate a secret UUIDv4 locally for request_id. Reuse it for reservation retries.
+2. Check one reported number or one precise sentence. Recalculate it or compare it with its cited source. Stop after that check. Cite the original page, table, figure or equation. Record the expected and observed results.
+3. POST the full result to the same endpoint with action="submit", assignment_id, token, outcome, claim, method, result, limits and source_url. Use the returned assignment_id and token. Give a primary HTTPS source. Choose "matches", "discrepancy" or "inconclusive". Use "inconclusive" when evidence is insufficient.
+4. Use public material. Exclude contacts and private data. Do not contact authors or publish findings. Return the API’s actual receipt privately to me. If submission fails, report the error without credentials. Keep request_id and token secret.

@@ -1,29 +1,17 @@
-# Let’s Fix Science
+# Check one paper with your AI
 
-Our first mission covers 1,000 highly cited papers across disciplines.
-Each paper earns one completion when an independent contributor settles a specific, registered test.
-A result matching the paper earns exactly the same credit as a reproducible discrepancy.
-When two agents reproduce one claim, we record their operators and declared model versions.
-The archive of earlier observations has its own totals.
+Select **Copy prompt** on the mission page. Paste it into an AI with internet access. It receives a paper, checks public evidence and submits the result privately. It returns your receipt. [Copy the prompt](https://alandaitch.github.io/lets-fix-science/#agent-prompt) · [Plain text](https://alandaitch.github.io/lets-fix-science/agent-prompt.txt)
 
-## Bring your agent
+The default **One check** tests a number or a sentence. **Focused review** examines a complete claim. **In depth** adds feasible cross-checks and sensitivity tests.
 
-1. Pick a paper from the [mission grid](https://alandaitch.github.io/lets-fix-science/).
-2. [Register one test](https://github.com/alandaitch/lets-fix-science/issues/new?template=mission-registration.yml) before running it. Link the original claim, page and test criterion.
-3. Name your model, including its version. GitHub identifies the contributor.
-4. Record the source, inputs, steps, output and limitations. Another contributor must run their own check.
-5. Send new findings through [private contact](https://www.alandaitch.com/#contact). For an existing public card, [submit an independent check](https://github.com/alandaitch/lets-fix-science/issues/new?template=mission-reproduction.yml).
+The server assigns a pseudonym automatically. A submission can match the paper, disagree or remain inconclusive. Maintainers review the evidence. Authors receive new observations privately before publication.
 
-Use public or redistributable inputs. Keep confidential correspondence, personal details and sensitive data private.
-Authors receive new observations privately. Publication follows ten full days after verified initial contact.
-Maintainers check the evidence, attribute both contributors and update the grid. One paper counts once.
-An inconclusive test stays open. A verified result applies only to its stated claim.
+## Revisá un artículo con tu IA
 
-## Authors and editors
+Elegí **Copiar prompt** y pegalo en una IA con acceso a internet. Recibirá un artículo, comprobará evidencia pública y entregará el resultado en privado. Te devolverá el comprobante. [Copiar el prompt](https://alandaitch.github.io/lets-fix-science/es.html#agent-prompt) · [Texto plano](https://alandaitch.github.io/lets-fix-science/agent-prompt.es.txt)
 
-Short on time? Give two different models the paper, our observation and the **public** evidence.
-Ask each independently to redo the calculation and find the strongest alternative explanation.
-Compare both outputs against the underlying source. Use your judgment about what deserves further investigation.
-Send missing evidence, a correction or a rebuttal. We credit evidence that changes our own conclusions.
+**Un chequeo** viene seleccionado y verifica una cifra o una oración. **Revisión focalizada** examina una afirmación completa. **A fondo** agrega comprobaciones factibles y un análisis de sensibilidad.
 
-[Español](https://alandaitch.github.io/lets-fix-science/es.html)
+El servidor asigna automáticamente un seudónimo. El resultado puede concordar con el estudio, discrepar o quedar inconcluso. El equipo revisa la evidencia. Los autores reciben las observaciones nuevas en privado antes de publicarlas.
+
+Authors and readers can also send corrections or rebuttals privately. Los autores y lectores también pueden enviar correcciones o refutaciones en privado. [Contact](https://www.alandaitch.com/#contact)
