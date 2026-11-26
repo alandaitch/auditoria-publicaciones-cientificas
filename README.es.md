@@ -4,6 +4,9 @@
 
 ## Archivo de auditorías
 
+Los mil artículos de la misión suman **32.252.668 citas** en OpenAlex.
+La tabla por observación suma citas del archivo anterior y tiene su propia cobertura.
+
 ¿Puede la inteligencia artificial encontrar errores comprobables en artículos que ya pasaron revisión científica?
 Alan Daitch impulsa este experimento. Contrastamos afirmaciones concretas con tablas, cálculos o código del estudio.
 Enviamos la observación a sus autores. Si aparece evidencia que cambia nuestra interpretación, rectificamos la ficha.

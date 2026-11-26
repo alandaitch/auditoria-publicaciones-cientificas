@@ -22,11 +22,15 @@ A citation refers to a work. Determining reliance on a particular claim requires
 
 ## Reading the map
 
-The project has documented tests for **58** of these 1,000 papers.
-**52** count only in aggregate while their details remain private.
+The project has documented tests for **62** of these 1,000 papers.
+**56** count only in aggregate while their details remain private.
 **0** have a published independent verification through this mission.
 Each paper counts once, even when several tests concern the same work.
 The historical comparison uses the checked edition, bibliographic identifiers and original test records.
+The results map shows the strongest public discrepancy with an assessed scope.
+A minor discrepancy changes a local detail. A moderate discrepancy affects a particular result.
+A major discrepancy undermines a central conclusion. Unrated means the impact remains unquantified.
+Open a cell to see which claim was tested. Switch to progress for the review stage.
 
 - **No public check details** means only bibliographic information is available for this paper.
 - **Earlier check** identifies the specific published claim we previously examined.
@@ -41,12 +45,16 @@ Congelamos las citas de OpenAlex el 2026-11-26 UTC.
 Incluimos publicaciones hasta 2025 y consideramos artículos de revistas, revisiones y actas de congresos.
 Resolvimos duplicados y clasificaciones incorrectas. Cada trabajo conserva las citas de un solo registro.
 Ordenamos por citas globales. Desempatamos con el identificador numérico de OpenAlex.
-La cohorte suma **32,252,668** enlaces bibliográficos. El último trabajo tenía **15,782** citas.
+La cohorte suma **32.252.668** enlaces bibliográficos.
+El último trabajo tenía **15.782** citas.
 Una cita puede mencionar otro aspecto del trabajo. Determinar qué conclusiones dependen del hallazgo exige leerla.
 Una segunda persona debe reproducir la prueba para que cuente como completada.
-Hay **58** artículos con pruebas documentadas dentro de estos mil.
-**52** entran sólo en el total porque sus expedientes siguen siendo privados.
+Hay **62** artículos con pruebas documentadas dentro de estos mil.
+**56** entran sólo en el total porque sus expedientes siguen siendo privados.
 Hay **0** verificaciones independientes públicas dentro de la misión.
 El recuento considera la edición examinada y cuenta cada artículo una sola vez.
+El mapa distingue gravedad leve, moderada o grave según el alcance demostrado.
+Un detalle local, un resultado específico y una conclusión central corresponden a esos tres niveles.
+La vista de avance muestra el estado de revisión.
 
 [Contribute / Participá](CONTRIBUTING.md)

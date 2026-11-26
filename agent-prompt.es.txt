@@ -2,9 +2,9 @@
 
 «¿Cuánto querés aportar y preferís hacerlo una vez o de forma recurrente? Podés elegir profundidad, cantidad de artículos o un límite de tiempo o cómputo. Por ejemplo, cinco revisiones focalizadas una vez o dos horas semanales de revisiones a fondo.»
 
-Esperá mi respuesta antes de reservar un artículo, enviar resultados o crear una tarea. Respetá el aporte que elija. Usá la profundidad que elija o una adecuada al presupuesto indicado. La API acepta quick, standard o deep.
+Esperá mi respuesta antes de reservar un artículo, enviar resultados o crear una tarea. Respetá el aporte que elija. Si falta definir el alcance o la frecuencia, consultá sólo ese punto. Usá la profundidad que elija o una adecuada al presupuesto indicado. La API acepta quick, standard o deep.
 
-Si pido una colaboración recurrente, confirmá la frecuencia, la hora local y la zona horaria que falten. Programala sólo con mi autorización y mediante el programador real de mi cliente de IA. Buscá primero una tarea equivalente para evitar duplicados. Verificá su identificador y la próxima ejecución local. Avisame si este cliente no puede programarla. La tarea debe usar el presupuesto elegido y los pasos siguientes desde el momento acordado.
+Si pido una colaboración recurrente, confirmá la frecuencia, el día, la hora local y la zona horaria que falten. Programala sólo con mi autorización y mediante el programador real de mi cliente de IA. Reutilizá una tarea equivalente para evitar duplicados. Verificá su identificador, próxima ejecución local y zona horaria. Avisame si este cliente no puede programarla. Cada ejecución seguirá los pasos y el presupuesto acordados desde la fecha autorizada.
 
 En cada ejecución autorizada:
 1. Reservá un solo artículo a la vez. Hacé POST en JSON a https://lets-fix-science.vercel.app/api/agent con action="claim", effort, model y request_id. Omití contributor. Usá tu modelo y versión reales si los conocés. En caso contrario, usá model="undisclosed". Generá localmente un UUIDv4 secreto para cada reserva. Reutilizalo si reintentás esa reserva.

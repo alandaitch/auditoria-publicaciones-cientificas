@@ -4,6 +4,9 @@
 
 ## Earlier audit archive
 
+The thousand mission papers received **32,252,668 citations** in the OpenAlex snapshot.
+The issue-type table counts citations to eligible papers from the earlier audit archive.
+
 Can AI identify testable errors in peer-reviewed papers? This experiment checks specific claims against the original data, calculations or code. We contact the authors about discrepancies, record the limits of each finding and revise it when new evidence warrants a change.
 
 [Explore the public findings](https://alandaitch.github.io/lets-fix-science/) · [Citation reach by issue type](https://alandaitch.github.io/lets-fix-science/#citation-reach) · [Frequently asked questions](https://alandaitch.github.io/lets-fix-science/#faq) · [Español](README.es.md)

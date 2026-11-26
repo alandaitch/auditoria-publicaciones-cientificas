@@ -1,6 +1,6 @@
 {
   "snapshot_utc": "2026-11-26T00:18:07.325349+00:00",
-  "exported_utc": "2026-11-26T01:24:48.207814+00:00",
+  "exported_utc": "2026-11-26T01:52:56.166669+00:00",
   "count": 190,
   "total_audited": 320,
   "pending_initial_sends": 0,
@@ -1631,6 +1631,7 @@
       ],
       "response_status": "Correction announced",
       "public_journal_correction": "Unverified",
+      "scientific_severity": "moderate",
       "original_wording": {
         "study_claim": "La oxitocina mejora el recuerdo de rostros masculinos entre las mujeres del contraste simple.",
         "observation": "Mujeres tratadas con oxitocina: comparación con placebo para rostros masculinos. El p publicado .05 contradice t y datos fuente.",
@@ -4173,6 +4174,7 @@
       ],
       "response_status": "Limitation acknowledged and referred to editor",
       "public_journal_correction": "Unverified",
+      "scientific_severity": "moderate",
       "original_wording": {
         "study_claim": "Los grupos de riesgo pronóstico inferidos a partir de expresión celular presentan supervivencias distintas.",
         "observation": "La validación pronóstica reajusta coeficientes Cox utilizando los desenlaces de la cohorte evaluada. Luego divide esos mismos pacientes y calcula logrank ordinario. El test ignora la selección supervisada de grupos.",
@@ -6412,6 +6414,7 @@
       "limits": "We do not run clinical check-points or restricted data. We do not quantify changes AUROC, its exact direction or prevalence of error. The neural test only shows potential sensitivities.",
       "response_status": "Code patch verified",
       "public_journal_correction": "Unverified",
+      "scientific_severity": "unrated",
       "original_wording": {
         "study_claim": "El modelo compara predicciones entre dos cohortes usando la misma codificación de comorbilidades.",
         "observation": "eICU convierte indicadores Charlson ponderados a variables binarias. MIMIC conserva pesos 2, 3 y 6 en esas mismas columnas. Ambas cohortes comparten arquitectura y escalador.",
