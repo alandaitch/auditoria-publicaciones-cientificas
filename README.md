@@ -1,65 +1,45 @@
-# Auditoría independiente de artículos científicos
+# Let’s Fix Science
 
-¿Puede la inteligencia artificial encontrar errores comprobables en artículos que ya pasaron revisión científica?
-Alan Daitch impulsa este experimento. Contrastamos afirmaciones concretas con tablas, cálculos o código del estudio.
-Enviamos la observación a sus autores. Si aparece evidencia que cambia nuestra interpretación, rectificamos la ficha.
+[Explore the thousand-paper mission](https://alandaitch.github.io/auditoria-publicaciones-cientificas/) · [Contribute a test](CONTRIBUTING.md) · [Mission dataset](mission.json) · [Selection and progress](MISSION.md)
 
-[Explorá el experimento](https://alandaitch.github.io/auditoria-publicaciones-cientificas/) · [Preguntas frecuentes](https://alandaitch.github.io/auditoria-publicaciones-cientificas/#preguntas)
+## Earlier audit archive
 
-El sitio muestra **190 observaciones públicas**.
-Otras **129** esperan que pasen diez días completos desde el envío verificado.
-Ese plazo corresponde a publicar nuestra ficha. La revista tiene su propio proceso de corrección.
-Las consultas pendientes de envío suman **0**.
-Las consultas cuyo envío falta confirmar suman **1**.
-El sitio muestra ambos grupos como totales.
+Can AI identify testable errors in peer-reviewed papers? This experiment checks specific claims against the original data, calculations or code. We contact the authors about discrepancies, record the limits of each finding and revise it when new evidence warrants a change.
 
-Cada ficha explica la afirmación, nuestra observación y qué cambiaría si se comprueba.
-Las citas cuentan publicaciones que referencian el artículo. Cada recuento indica su fuente y fecha.
-La prioridad indica qué observaciones revisamos primero.
+[Explore the public findings](https://alandaitch.github.io/auditoria-publicaciones-cientificas/) · [Citation reach by issue type](https://alandaitch.github.io/auditoria-publicaciones-cientificas/#alcance) · [Frequently asked questions](https://alandaitch.github.io/auditoria-publicaciones-cientificas/#preguntas) · [Español](README.es.md)
 
-## Consultar
+## Coverage
 
-- [Explorador de fichas públicas](https://alandaitch.github.io/auditoria-publicaciones-cientificas/#explorar).
-- [Datos detallados en JSON](hallazgos.json).
-- [Tabla resumida en CSV](hallazgos.csv).
-- [Tres comprobaciones reproducibles de código](reproducciones/README.md).
+There are **190 public findings**. Another **129** are awaiting publication after verified contact. We wait ten full days from each verified initial inquiry, even when nobody replies. Pending inquiries (**0**) and unconfirmed sends (**1**) are shown only as aggregate counts.
 
-Cada estado describe el seguimiento **sin reproducir correspondencia privada**.
-“Reconocida” refleja una respuesta específica, no una aceptación editorial del artículo completo.
-“Corrección anunciada” no equivale a una corrección publicada.
-“Parche público verificado” indica un cambio de código, no una fe de erratas editorial.
-“Sin evaluación científica registrada” indica ausencia de respuesta sustantiva en nuestros registros.
-Las respuestas automáticas, entregas fallidas y contactos cerrados se distinguen expresamente.
+Each record gives the paper’s claim, the observation, what could change and its limitations. Review priority determines processing order. The citation table counts bibliography links to the included papers. One paper enters one primary issue category. Different papers may share citing works. The table does not establish whether later studies used the questioned result.
 
-Al corte del **2026-11-26**, los estados son:
+## Data and methods
 
-- Autor revisará la consulta; evaluación pendiente: 1
-- Consulta enviada; sin evaluación científica registrada: 167
-- Consulta reenviada; evaluación pendiente: 1
-- Contacto cerrado; sin evaluación científica: 1
-- Derivación editorial confirmada: 5
-- Derivación editorial sugerida: 1
-- Detalles solicitados y enviados; evaluación pendiente: 1
-- Entrega sin confirmar; sin evaluación científica: 4
-- Hallazgo inicial rectificado por esta auditoría: 1
-- Inconsistencia reconocida; parche público verificado: 1
-- Limitación reconocida por equipo; derivada al editor: 1
-- Método de la auditoría explicado: 1
-- Observación reconocida; corrección anunciada: 1
-- Recepción editorial confirmada: 1
-- Respuesta automática; sin evaluación científica: 2
-- Seguimiento personal: 1
+- [Public records in JSON](findings.json)
+- [Public records in CSV](findings.csv)
+- [Reproducible checks with code](reproducciones/README.md) (Spanish)
+- [Spanish public records](es.html)
 
-No verificamos ninguna corrección editorial publicada para los casos visibles al corte indicado.
-Los estados podrán actualizarse con nueva evidencia pública o respuestas posteriores.
+Contact status summarizes the exchange without publishing private correspondence. An acknowledged limitation concerns the specific observation. An announced correction still requires verification. A verified code patch confirms a change to that code. Author silence leaves the scientific question open.
 
-## Alcance y método
+### Status on 2026-11-26
 
-La auditoría interna contiene **19 casos de prioridad alta** y **301 media**.
-Cada observación identifica un pasaje, cálculo o fragmento de código y expresa su límite.
-Las reproducciones sintéticas prueban propiedades del método; no sustituyen resultados clínicos.
-La ausencia de un antecedente localizado no certifica prioridad mundial.
-Las 39 observaciones históricas de baja prioridad quedan fuera de este conjunto.
+- Audit method explained: 1
+- Automated reply: 2
+- Code patch verified: 1
+- Contact closed: 1
+- Correction announced: 1
+- Delivery unconfirmed: 4
+- Editorial contact suggested: 1
+- Finding revised by the audit: 1
+- Forwarded to an editor: 5
+- Further details provided: 1
+- Inquiry resent: 1
+- Limitation acknowledged and referred to editor: 1
+- No scientific response recorded: 167
+- Personal follow-up: 1
+- Receipt confirmed by journal: 1
+- Review planned: 1
 
-Para comunicar evidencia adicional o solicitar una rectificación, abrí un issue en este repositorio.
-No publiques correos privados, datos de pacientes ni información personal en los issues.
+Paper selection is targeted. The register cannot estimate the prevalence of errors in the scientific literature. Synthetic controls test a method; the reported checks specify whether the original data were reproduced. To request a correction, [open a public issue](https://github.com/alandaitch/auditoria-publicaciones-cientificas/issues) with the record ID and supporting public evidence. Keep personal information, patient data and private correspondence out of issues.

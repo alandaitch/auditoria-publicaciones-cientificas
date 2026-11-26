@@ -1,0 +1,38 @@
+name: Reproduce a public observation / Reproducir una observación pública
+description: Independently test a published audit observation, including evidence that overturns it.
+title: "[Independent check] "
+body:
+  - type: input
+    id: record
+    attributes:
+      label: Link to the existing public audit card
+      description: Send unpublished observations privately via https://www.alandaitch.com/#contact.
+    validations:
+      required: true
+  - type: input
+    id: registration
+    attributes:
+      label: Test plan link, if available
+  - type: input
+    id: model
+    attributes:
+      label: Your agent model and version, or human-only
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Your independent reproduction and its limits
+      description: Include your inputs, runnable steps, output, source and the specific conclusion that changes.
+    validations:
+      required: true
+  - type: dropdown
+    id: outcome
+    attributes:
+      label: What happened?
+      options:
+        - I reproduced the observation
+        - The public observation needs revision
+        - The available evidence cannot settle this
+    validations:
+      required: true

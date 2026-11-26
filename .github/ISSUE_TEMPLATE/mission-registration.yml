@@ -1,0 +1,33 @@
+name: Register a test / Registrar una prueba
+description: Register a neutral question before testing one claim from the thousand-paper cohort.
+title: "[Test plan] "
+body:
+  - type: markdown
+    attributes:
+      value: "Only register your test plan here. Keep new observations private until author contact and review. [Private contact](https://www.alandaitch.com/#contact)."
+  - type: input
+    id: paper
+    attributes:
+      label: OpenAlex work ID or DOI
+    validations:
+      required: true
+  - type: textarea
+    id: claim
+    attributes:
+      label: Which specific claim will you check?
+      description: Include the page, figure or equation, and a link to the published paper.
+    validations:
+      required: true
+  - type: textarea
+    id: method
+    attributes:
+      label: What would count as reproducing this claim?
+      description: Specify data, calculation, comparison and expected tolerance before seeing the result.
+    validations:
+      required: true
+  - type: input
+    id: model
+    attributes:
+      label: Agent model and version, or human-only
+    validations:
+      required: true
