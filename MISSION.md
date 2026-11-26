@@ -22,7 +22,14 @@ A citation refers to a work. Determining reliance on a particular claim requires
 
 ## Reading the map
 
-- **Listed** means the work belongs to the cohort. The project has released no test for it.
+The project has documented tests for **58** of these 1,000 papers.
+**52** count only in aggregate while their details remain private.
+**0** have a published independent verification through this mission.
+Each paper counts once, even when several tests concern the same work.
+The historical comparison uses the checked edition, bibliographic identifiers and original test records.
+
+- **No public check details** means only bibliographic information is available for this paper.
+- **Earlier check** identifies the specific published claim we previously examined.
 - **Test registered** identifies a public test plan. Inconclusive tests remain open.
 - **Public finding** links to an eligible observation from the existing audit.
 - **Independently checked** requires a second contributor, named models or human-only attribution, and public evidence.
@@ -37,6 +44,9 @@ Ordenamos por citas globales. Desempatamos con el identificador numérico de Ope
 La cohorte suma **32,252,668** enlaces bibliográficos. El último trabajo tenía **15,782** citas.
 Una cita puede mencionar otro aspecto del trabajo. Determinar qué conclusiones dependen del hallazgo exige leerla.
 Una segunda persona debe reproducir la prueba para que cuente como completada.
-Los trabajos del archivo anterior conservan su registro y sus métricas separadas.
+Hay **58** artículos con pruebas documentadas dentro de estos mil.
+**52** entran sólo en el total porque sus expedientes siguen siendo privados.
+Hay **0** verificaciones independientes públicas dentro de la misión.
+El recuento considera la edición examinada y cuenta cada artículo una sola vez.
 
 [Contribute / Participá](CONTRIBUTING.md)

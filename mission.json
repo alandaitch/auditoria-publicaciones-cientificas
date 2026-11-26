@@ -1,6 +1,12 @@
 {
   "date": "2026-11-26",
   "source_url": "https://api.openalex.org/works?filter=to_publication_date%3A2025-12-31%2Ccited_by_count%3A%3E13622&sort=cited_by_count%3Adesc&per_page=100",
+  "progress": {
+    "checked": 58,
+    "prior_checked": 58,
+    "private_only": 52,
+    "independently_verified": 0
+  },
   "papers": [
     {
       "id": "W1775749144",
@@ -156,7 +162,11 @@
       "citations": 133877,
       "cases": [],
       "records": [],
-      "status": "listed"
+      "status": "prior_checked",
+      "prior_check": {
+        "en": "We checked which correlations the original criterion compares against the extracted variance.",
+        "es": "Verificamos qué correlaciones compara el criterio original con la varianza extraída."
+      }
     },
     {
       "id": "W2083222334",
@@ -852,7 +862,11 @@
       "citations": 66384,
       "cases": [],
       "records": [],
-      "status": "listed"
+      "status": "prior_checked",
+      "prior_check": {
+        "en": "The original paper explicitly limits its optimization claim to individual joining steps.",
+        "es": "El artículo limita explícitamente la optimización a cada paso de unión del árbol."
+      }
     },
     {
       "id": "W2125435699",
@@ -864,7 +878,11 @@
       "citations": 65341,
       "cases": [],
       "records": [],
-      "status": "listed"
+      "status": "prior_checked",
+      "prior_check": {
+        "en": "The three pooled odds ratios in Figure 3 matched our recalculation from the six studies.",
+        "es": "Recalculamos las tres estimaciones combinadas de la figura 3. Coincidieron con los valores publicados."
+      }
     },
     {
       "id": "W2100379340",
@@ -2868,7 +2886,11 @@
       "citations": 35093,
       "cases": [],
       "records": [],
-      "status": "listed"
+      "status": "prior_checked",
+      "prior_check": {
+        "en": "The correlation reported on page 61 matched the author’s interpretation at the 5% threshold.",
+        "es": "La correlación de la página 61 respalda la interpretación del autor al umbral del 5%."
+      }
     },
     {
       "id": "W2096998881",
@@ -3024,7 +3046,11 @@
       "citations": 34012,
       "cases": [],
       "records": [],
-      "status": "listed"
+      "status": "prior_checked",
+      "prior_check": {
+        "en": "The original paper explicitly discusses false convergence and gives a four-dimensional example.",
+        "es": "El artículo original describe la falsa convergencia mediante un ejemplo de cuatro dimensiones."
+      }
     },
     {
       "id": "W2011254969",
@@ -4884,7 +4910,11 @@
       "citations": 25610,
       "cases": [],
       "records": [],
-      "status": "listed"
+      "status": "prior_checked",
+      "prior_check": {
+        "en": "We verified the factor of two in Equation 2 against the published version.",
+        "es": "Verificamos el factor dos en la ecuación 2 de la versión publicada."
+      }
     },
     {
       "id": "W2165010366",

@@ -1,12 +1,12 @@
 # Let’s Fix Science
 
-[Explore the thousand-paper mission](https://alandaitch.github.io/auditoria-publicaciones-cientificas/) · [Contribute a test](CONTRIBUTING.md) · [Mission dataset](mission.json) · [Selection and progress](MISSION.md)
+[Explore the thousand-paper mission](https://alandaitch.github.io/lets-fix-science/) · [Contribute a test](CONTRIBUTING.md) · [Mission dataset](mission.json) · [Selection and progress](MISSION.md)
 
 ## Earlier audit archive
 
 Can AI identify testable errors in peer-reviewed papers? This experiment checks specific claims against the original data, calculations or code. We contact the authors about discrepancies, record the limits of each finding and revise it when new evidence warrants a change.
 
-[Explore the public findings](https://alandaitch.github.io/auditoria-publicaciones-cientificas/) · [Citation reach by issue type](https://alandaitch.github.io/auditoria-publicaciones-cientificas/#alcance) · [Frequently asked questions](https://alandaitch.github.io/auditoria-publicaciones-cientificas/#preguntas) · [Español](README.es.md)
+[Explore the public findings](https://alandaitch.github.io/lets-fix-science/) · [Citation reach by issue type](https://alandaitch.github.io/lets-fix-science/#citation-reach) · [Frequently asked questions](https://alandaitch.github.io/lets-fix-science/#faq) · [Español](README.es.md)
 
 ## Coverage
 
@@ -42,4 +42,4 @@ Contact status summarizes the exchange without publishing private correspondence
 - Receipt confirmed by journal: 1
 - Review planned: 1
 
-Paper selection is targeted. The register cannot estimate the prevalence of errors in the scientific literature. Synthetic controls test a method; the reported checks specify whether the original data were reproduced. To request a correction, [open a public issue](https://github.com/alandaitch/auditoria-publicaciones-cientificas/issues) with the record ID and supporting public evidence. Keep personal information, patient data and private correspondence out of issues.
+Paper selection is targeted. The register cannot estimate the prevalence of errors in the scientific literature. Synthetic controls test a method; the reported checks specify whether the original data were reproduced. To request a correction, [open a public issue](https://github.com/alandaitch/lets-fix-science/issues) with the record ID and supporting public evidence. Keep personal information, patient data and private correspondence out of issues.
