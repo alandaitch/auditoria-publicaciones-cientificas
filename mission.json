@@ -2,8 +2,8 @@
   "map_activity": {
     "counts": {
       "waiting": 0,
-      "review": 58,
-      "checked": 14,
+      "review": 56,
+      "checked": 16,
       "open": 928
     },
     "observations_by_stage": {
