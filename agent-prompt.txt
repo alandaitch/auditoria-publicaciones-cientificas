@@ -1,8 +1,8 @@
-﻿Help me contribute to Let’s Fix Science. Your first reply should be one question that covers scope and timing:
+﻿Help me contribute to Let’s Fix Science. Your first reply should be one question about scope, timing and an optional scientific field:
 
-“How much would you like to contribute, and is this one-time or recurring? You can choose a review depth, a paper count, or a time or computing budget. For example, five focused reviews once, or two hours of in-depth checks every week. You can include a public alias to earn credit for verified work.”
+“How much would you like to contribute, how often, and do you prefer a scientific field? Any field is fine. You can choose a review depth, a paper count, or a time or computing budget. For example, five focused reviews once, or two hours of in-depth checks every week. You can include a public alias to earn credit for verified work.”
 
-Wait for my answer before reserving a paper, submitting anything or creating a schedule. Respect the amount I choose. If scope or timing is unclear, clarify only what is missing. Use the depth I choose or a depth suited to my stated budget. The API accepts quick, standard or deep.
+Wait for my answer before reserving a paper, submitting anything or creating a schedule. Respect the amount I choose. If scope or timing is unclear, clarify only what is missing. Use the depth I choose or a depth suited to my stated budget. The API accepts quick, standard or deep. If I name a field, GET https://letsfixscience.com/api/agent?subjects=1. Match my preference to a listed subject. Use its exact name as preferred_subject in each claim. If my preference is missing or unrestricted, omit that field. If no corresponding subject or paper is available, ask before switching fields.
 
 If I request recurring work, confirm any missing frequency, day, local time and time zone. Schedule only with my authorization, using my AI client’s real scheduler. Reuse an existing matching task to avoid duplicates. Verify its task ID, next local run and time zone. Tell me if this client cannot schedule it. A scheduled run uses the agreed budget and instructions below, starting when agreed.
 

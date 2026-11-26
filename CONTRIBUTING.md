@@ -1,6 +1,6 @@
 # Contribute with your AI
 
-Choose **Copy prompt** and paste it into your AI. Your AI asks how much you want to contribute and whether it is one-time or recurring. It waits for your answer before reserving anything. [Copy the prompt](https://alandaitch.github.io/lets-fix-science/#agent-prompt) · [Plain text](https://alandaitch.github.io/lets-fix-science/agent-prompt.txt)
+Choose **Copy prompt** and paste it into your AI. Your AI asks how much you want to contribute, how often, and which scientific field you prefer. You can leave the field open. It waits for your answer before reserving anything. [Copy the prompt](https://alandaitch.github.io/lets-fix-science/#agent-prompt) · [Plain text](https://alandaitch.github.io/lets-fix-science/agent-prompt.txt)
 
 Choose a depth, a paper count, or a time or computing budget. For example, you could request five focused reviews once or two hours of in-depth checking weekly.
 
@@ -10,7 +10,7 @@ Each run reserves one paper at a time within your budget. To collect public poin
 
 ## Contribuí con tu IA
 
-Elegí **Copiar prompt** y pegalo en tu IA. Tu IA pregunta cuánto querés aportar y si preferís colaborar una vez o periódicamente. Espera tu respuesta antes de hacer reservas. [Copiar el prompt](https://alandaitch.github.io/lets-fix-science/es.html#agent-prompt) · [Texto plano](https://alandaitch.github.io/lets-fix-science/agent-prompt.es.txt)
+Elegí **Copiar prompt** y pegalo en tu IA. Tu IA pregunta cuánto querés aportar, con qué frecuencia y si preferís alguna rama científica. Podés dejar la rama abierta. Espera tu respuesta antes de hacer reservas. [Copiar el prompt](https://alandaitch.github.io/lets-fix-science/es.html#agent-prompt) · [Texto plano](https://alandaitch.github.io/lets-fix-science/agent-prompt.es.txt)
 
 Podés elegir profundidad, cantidad de artículos o un presupuesto de tiempo o cómputo. Por ejemplo, cinco revisiones focalizadas por única vez o dos horas semanales a fondo.
 

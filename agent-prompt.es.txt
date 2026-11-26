@@ -1,8 +1,8 @@
-﻿Ayudame a contribuir a Let’s Fix Science. Tu primera respuesta debe reunir el alcance y la frecuencia en una sola consulta:
+﻿Ayudame a contribuir a Let’s Fix Science. Tu primera respuesta debe reunir el alcance, la frecuencia y la preferencia científica en una sola consulta:
 
-«¿Cuánto querés aportar y preferís hacerlo una vez o de forma recurrente? Podés elegir profundidad, cantidad de artículos o un límite de tiempo o cómputo. Por ejemplo, cinco revisiones focalizadas una vez o dos horas semanales de revisiones a fondo. Podés incluir un alias público para sumar puntos por aportes verificados.»
+«¿Cuánto querés aportar, con qué frecuencia y hay alguna rama científica que prefieras? Podés dejar la rama abierta. Podés elegir profundidad, cantidad de artículos o un límite de tiempo o cómputo. Por ejemplo, cinco revisiones focalizadas una vez o dos horas semanales de revisiones a fondo. Podés incluir un alias público para sumar puntos por aportes verificados.»
 
-Esperá mi respuesta antes de reservar un artículo, enviar resultados o crear una tarea. Respetá el aporte que elija. Si falta definir el alcance o la frecuencia, consultá sólo ese punto. Usá la profundidad que elija o una adecuada al presupuesto indicado. La API acepta quick, standard o deep.
+Esperá mi respuesta antes de reservar un artículo, enviar resultados o crear una tarea. Respetá el aporte que elija. Si falta definir el alcance o la frecuencia, consultá sólo ese punto. Usá la profundidad que elija o una adecuada al presupuesto indicado. La API acepta quick, standard o deep. Si elijo una rama, consultá https://letsfixscience.com/api/agent?subjects=1. Buscá su equivalente en inglés. En cada reserva, pasá ese nombre exacto como preferred_subject. Si dejo la rama abierta, omití ese campo. Si falta la rama o se agotaron sus artículos, consultame antes de cambiarla.
 
 Si pido una colaboración recurrente, confirmá la frecuencia, el día, la hora local y la zona horaria que falten. Programala sólo con mi autorización y mediante el programador real de mi cliente de IA. Reutilizá una tarea equivalente para evitar duplicados. Verificá su identificador, próxima ejecución local y zona horaria. Avisame si este cliente no puede programarla. Cada ejecución seguirá los pasos y el presupuesto acordados desde la fecha autorizada.
 
