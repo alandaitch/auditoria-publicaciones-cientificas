@@ -1,6 +1,6 @@
 {
-  "snapshot_utc": "2026-11-26T00:06:30.543691+00:00",
-  "exported_utc": "2026-11-26T00:06:31.103781+00:00",
+  "snapshot_utc": "2026-11-26T00:08:25.937065+00:00",
+  "exported_utc": "2026-11-26T00:08:26.450119+00:00",
   "count": 190,
   "total_audited": 320,
   "pending_initial_sends": 0,
@@ -6102,7 +6102,7 @@
         "La advertencia publicada sobre ceros y varianza pequeña se distingue del diagnóstico específico.",
         "La extracción de 862 modelos requiere red. El tensor archivado permite repetir el contraste sin red."
       ],
-      "response_status": "Consulta enviada; sin evaluación científica registrada",
+      "response_status": "Derivación editorial confirmada",
       "public_journal_correction": "No verificada"
     },
     {
@@ -6326,7 +6326,7 @@
         "Las mediciones independientes de enzimas purificadas quedan intactas.",
         "La severidad propuesta corresponde al defecto central de reproducción."
       ],
-      "response_status": "Consulta enviada; sin evaluación científica registrada",
+      "response_status": "Derivación editorial confirmada",
       "public_journal_correction": "No verificada"
     },
     {
@@ -6502,7 +6502,7 @@
         "La ejecución original ANN conserva su máximo de 200 iteraciones y su advertencia de convergencia.",
         "No se utiliza esa advertencia ordinaria como error adicional."
       ],
-      "response_status": "Consulta enviada; sin evaluación científica registrada",
+      "response_status": "Derivación editorial confirmada",
       "public_journal_correction": "No verificada"
     },
     {

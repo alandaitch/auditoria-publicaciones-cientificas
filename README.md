@@ -34,10 +34,10 @@ Las respuestas automáticas, entregas fallidas y contactos cerrados se distingue
 Al corte del **2026-11-26**, los estados son:
 
 - Autor revisará la consulta; evaluación pendiente: 1
-- Consulta enviada; sin evaluación científica registrada: 170
+- Consulta enviada; sin evaluación científica registrada: 167
 - Consulta reenviada; evaluación pendiente: 1
 - Contacto cerrado; sin evaluación científica: 1
-- Derivación editorial confirmada: 2
+- Derivación editorial confirmada: 5
 - Derivación editorial sugerida: 1
 - Detalles solicitados y enviados; evaluación pendiente: 1
 - Entrega sin confirmar; sin evaluación científica: 4
