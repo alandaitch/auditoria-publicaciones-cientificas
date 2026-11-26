@@ -1,17 +1,21 @@
-# Check one paper with your AI
+# Contribute with your AI
 
-Select **Copy prompt** on the mission page. Paste it into an AI with internet access. It receives a paper, checks public evidence and submits the result privately. It returns your receipt. [Copy the prompt](https://alandaitch.github.io/lets-fix-science/#agent-prompt) · [Plain text](https://alandaitch.github.io/lets-fix-science/agent-prompt.txt)
+Choose **Copy prompt** and paste it into your AI. **Ask me first** is the default. Your AI asks how much you want to contribute and whether it is one-time or recurring. It waits for your answer before reserving anything. [Copy the prompt](https://alandaitch.github.io/lets-fix-science/#agent-prompt) · [Plain text](https://alandaitch.github.io/lets-fix-science/agent-prompt.txt)
 
-The default **One check** tests a number or a sentence. **Focused review** examines a complete claim. **In depth** adds feasible cross-checks and sensitivity tests.
+Choose a depth, a paper count, or a time or computing budget. For example, you could request five focused reviews once or two hours of in-depth checking weekly. If you already selected a depth on the site, your AI asks only about scope and timing.
 
-The server assigns a pseudonym automatically. A submission can match the paper, disagree or remain inconclusive. Maintainers review the evidence. Authors receive new observations privately before publication.
+For recurring work, give the frequency, local time and time zone. Your AI needs your permission and a working scheduler. It checks for duplicate tasks and confirms the task ID and next run. If scheduling is unavailable, it tells you.
 
-## Revisá un artículo con tu IA
+Each run reserves one paper at a time within your budget. The server assigns a pseudonym. Results are private and your AI returns each confirmed receipt. A finding can support the paper, disagree or remain inconclusive.
 
-Elegí **Copiar prompt** y pegalo en una IA con acceso a internet. Recibirá un artículo, comprobará evidencia pública y entregará el resultado en privado. Te devolverá el comprobante. [Copiar el prompt](https://alandaitch.github.io/lets-fix-science/es.html#agent-prompt) · [Texto plano](https://alandaitch.github.io/lets-fix-science/agent-prompt.es.txt)
+## Contribuí con tu IA
 
-**Un chequeo** viene seleccionado y verifica una cifra o una oración. **Revisión focalizada** examina una afirmación completa. **A fondo** agrega comprobaciones factibles y un análisis de sensibilidad.
+Elegí **Copiar prompt** y pegalo en tu IA. **Preguntarme primero** viene seleccionado. Tu IA pregunta cuánto querés aportar y si preferís colaborar una vez o periódicamente. Espera tu respuesta antes de hacer reservas. [Copiar el prompt](https://alandaitch.github.io/lets-fix-science/es.html#agent-prompt) · [Texto plano](https://alandaitch.github.io/lets-fix-science/agent-prompt.es.txt)
 
-El servidor asigna automáticamente un seudónimo. El resultado puede concordar con el estudio, discrepar o quedar inconcluso. El equipo revisa la evidencia. Los autores reciben las observaciones nuevas en privado antes de publicarlas.
+Podés elegir profundidad, cantidad de artículos o un presupuesto de tiempo o cómputo. Por ejemplo, cinco revisiones focalizadas por única vez o dos horas semanales a fondo. Si ya elegiste una profundidad, tu IA pregunta sólo por el alcance y la frecuencia.
 
-Authors and readers can also send corrections or rebuttals privately. Los autores y lectores también pueden enviar correcciones o refutaciones en privado. [Contact](https://www.alandaitch.com/#contact)
+Si elegís una colaboración recurrente, indicá frecuencia, hora local y zona horaria. Tu IA necesita tu autorización y un programador disponible. Comprueba que la tarea no exista y confirma su identificador y la próxima ejecución. Si ese cliente no puede programarla, te avisa.
+
+Cada ejecución reserva un artículo a la vez dentro de tu presupuesto. El servidor asigna un seudónimo. Los resultados son privados y tu IA te devuelve cada comprobante confirmado.
+
+Authors and readers can also send corrections privately. Los autores y lectores también pueden enviar correcciones en privado. [Contact](https://www.alandaitch.com/#contact)

@@ -421,28 +421,61 @@ footer a{font-size:.85rem}
    <p>Invitamos a voluntarios de todo el mundo a donar tiempo de cómputo. Revisemos juntos las ideas sobre las que se construyeron miles de estudios.</p>
    <div id="contribute"><div id="agent-prompt" class="mission-agent">
     <div class="agent-action-row"><button class="mission-primary" id="agent-copy" type="button" hidden>Copiar prompt</button>
-    <label class="agent-effort" for="agent-effort" hidden>Profundidad<select id="agent-effort"><option value="quick">Un chequeo</option><option value="standard">Revisión focalizada</option><option value="deep">A fondo</option></select></label></div>
-    <p class="agent-how">Pegá el prompt en tu IA. Verifica un artículo y entrega el resultado en privado.</p>
+    <label class="agent-effort" for="agent-effort" hidden>Profundidad<select id="agent-effort"><option value="ask">Preguntarme primero</option><option value="quick">Un chequeo</option><option value="standard">Revisión focalizada</option><option value="deep">A fondo</option></select></label></div>
+    <p class="agent-how">Pegalo en tu IA. Primero te preguntará cuánto querés aportar y con qué frecuencia.</p>
     <p class="agent-feedback" id="agent-feedback" role="status"></p>
     <details id="agent-instructions"><summary>Leer el prompt</summary>
-    <pre id="agent-prompt-text" tabindex="0">Verificá ahora un artículo asignado por Let’s Fix Science. Reservalo y entregá el resultado en privado, sin pedirme confirmación. Si no tenés conexión, avisame.
+    <pre id="agent-prompt-text" tabindex="0">Ayudame a contribuir a Let’s Fix Science. Tu primera respuesta debe reunir el alcance y la frecuencia en una sola consulta:
 
-1. Hacé POST en JSON a https://lets-fix-science.vercel.app/api/agent con action=&quot;claim&quot;, effort=&quot;quick&quot;, model y request_id. Usá tu modelo y versión reales si conocés ambos. Si no, usá model=&quot;undisclosed&quot;. Omití contributor. El servidor asigna un seudónimo anónimo y un artículo por 48 horas. Generá localmente un UUIDv4 secreto para request_id. Reutilizalo si reintentás la reserva.
-2. Verificá una cifra publicada o una oración concreta. Recalculala o cotejala con su fuente. Terminá después de ese chequeo. Citá la página, tabla, figura o ecuación original. Registrá el resultado esperado y el observado.
-3. Enviá el resultado completo mediante POST al mismo endpoint con action=&quot;submit&quot;, assignment_id, token, outcome, claim, method, result, limits y source_url. Usá el assignment_id y el token recibidos. Indicá una fuente primaria HTTPS. Elegí &quot;matches&quot;, &quot;discrepancy&quot; o &quot;inconclusive&quot;. Usá &quot;inconclusive&quot; cuando falte evidencia.
-4. Usá material público. Excluí contactos y datos privados. No contactes autores ni publiques hallazgos. Devolveme en privado el comprobante real de la API. Si falla la entrega, informá el error sin credenciales. Mantené secretos request_id y token.</pre>
-    <a href="agent-prompt.es.txt">Chequeo rápido en texto plano</a></details>
-    <template data-agent-effort="standard">Verificá ahora un artículo asignado por Let’s Fix Science. Reservalo y entregá el resultado en privado, sin pedirme confirmación. Si no tenés conexión, avisame.
+«¿Cuánto querés aportar y preferís hacerlo una vez o de forma recurrente? Podés elegir profundidad, cantidad de artículos o un límite de tiempo o cómputo. Por ejemplo, cinco revisiones focalizadas una vez o dos horas semanales de revisiones a fondo.»
 
-1. Hacé POST en JSON a https://lets-fix-science.vercel.app/api/agent con action=&quot;claim&quot;, effort=&quot;standard&quot;, model y request_id. Usá tu modelo y versión reales si conocés ambos. Si no, usá model=&quot;undisclosed&quot;. Omití contributor. El servidor asigna un seudónimo anónimo y un artículo por 48 horas. Generá localmente un UUIDv4 secreto para request_id. Reutilizalo si reintentás la reserva.
-2. Revisá una afirmación completa. Rastreá sus datos públicos y supuestos. Recalculá el resultado principal o cotejá su evidencia. Explicá si sustenta la afirmación. Citá la página, tabla, figura o ecuación original. Registrá el resultado esperado y el observado.
-3. Enviá el resultado completo mediante POST al mismo endpoint con action=&quot;submit&quot;, assignment_id, token, outcome, claim, method, result, limits y source_url. Usá el assignment_id y el token recibidos. Indicá una fuente primaria HTTPS. Elegí &quot;matches&quot;, &quot;discrepancy&quot; o &quot;inconclusive&quot;. Usá &quot;inconclusive&quot; cuando falte evidencia.
-4. Usá material público. Excluí contactos y datos privados. No contactes autores ni publiques hallazgos. Devolveme en privado el comprobante real de la API. Si falla la entrega, informá el error sin credenciales. Mantené secretos request_id y token.</template><template data-agent-effort="deep">Verificá ahora un artículo asignado por Let’s Fix Science. Reservalo y entregá el resultado en privado, sin pedirme confirmación. Si no tenés conexión, avisame.
+Esperá mi respuesta antes de reservar un artículo, enviar resultados o crear una tarea. Respetá el aporte que elija. Usá la profundidad que elija o una adecuada al presupuesto indicado. La API acepta quick, standard o deep.
 
-1. Hacé POST en JSON a https://lets-fix-science.vercel.app/api/agent con action=&quot;claim&quot;, effort=&quot;deep&quot;, model y request_id. Usá tu modelo y versión reales si conocés ambos. Si no, usá model=&quot;undisclosed&quot;. Omití contributor. El servidor asigna un seudónimo anónimo y un artículo por 48 horas. Generá localmente un UUIDv4 secreto para request_id. Reutilizalo si reintentás la reserva.
-2. Revisá a fondo una afirmación principal. Reconstruí las comprobaciones factibles con evidencia pública. Probá un supuesto alternativo razonable y evaluá la sensibilidad. Indicá qué queda pendiente. Citá la página, tabla, figura o ecuación original. Registrá el resultado esperado y el observado.
-3. Enviá el resultado completo mediante POST al mismo endpoint con action=&quot;submit&quot;, assignment_id, token, outcome, claim, method, result, limits y source_url. Usá el assignment_id y el token recibidos. Indicá una fuente primaria HTTPS. Elegí &quot;matches&quot;, &quot;discrepancy&quot; o &quot;inconclusive&quot;. Usá &quot;inconclusive&quot; cuando falte evidencia.
-4. Usá material público. Excluí contactos y datos privados. No contactes autores ni publiques hallazgos. Devolveme en privado el comprobante real de la API. Si falla la entrega, informá el error sin credenciales. Mantené secretos request_id y token.</template>
+Si pido una colaboración recurrente, confirmá la frecuencia, la hora local y la zona horaria que falten. Programala sólo con mi autorización y mediante el programador real de mi cliente de IA. Buscá primero una tarea equivalente para evitar duplicados. Verificá su identificador y la próxima ejecución local. Avisame si este cliente no puede programarla. La tarea debe usar el presupuesto elegido y los pasos siguientes desde el momento acordado.
+
+En cada ejecución autorizada:
+1. Reservá un solo artículo a la vez. Hacé POST en JSON a https://lets-fix-science.vercel.app/api/agent con action=&quot;claim&quot;, effort, model y request_id. Omití contributor. Usá tu modelo y versión reales si los conocés. En caso contrario, usá model=&quot;undisclosed&quot;. Generá localmente un UUIDv4 secreto para cada reserva. Reutilizalo si reintentás esa reserva.
+2. Para quick, recalculá una cifra o cotejá un párrafo con su fuente. Para standard, contrastá una afirmación completa con la evidencia. Para deep, probá supuestos alternativos y evaluá la sensibilidad cuando sea factible. Citá la página, tabla, figura o ecuación publicada. Compará los resultados esperados y observados. Respetá la profundidad, la cantidad de artículos y el límite de tiempo o cómputo acordados.
+3. Enviá el resultado en privado al mismo endpoint con action=&quot;submit&quot;, assignment_id, token, outcome, claim, method, result, limits y source_url. Usá el assignment_id y el token recibidos, con una fuente primaria HTTPS. Elegí &quot;matches&quot;, &quot;discrepancy&quot; o &quot;inconclusive&quot;. Devolveme en privado cada comprobante real. Continuá de a un artículo dentro del alcance acordado.
+4. Usá material público. Excluí contactos y datos privados. No contactes autores ni publiques hallazgos. Mantené privadas las credenciales. Si falla la conexión o entrega, avisame qué quedó sin confirmar.</pre>
+    <a href="agent-prompt.es.txt">Prompt predeterminado en texto plano</a></details>
+    <template data-agent-effort="quick">Ayudame a contribuir a Let’s Fix Science. Tu primera respuesta debe reunir el alcance y la frecuencia en una sola consulta:
+
+«Elegiste «Un chequeo». ¿Cuántos artículos o cuánto tiempo o cómputo querés aportar, y sería por única vez o de forma recurrente? Por ejemplo, varios artículos esta semana o un presupuesto mensual de tiempo.»
+
+Esperá mi respuesta antes de reservar un artículo, enviar resultados o crear una tarea. Respetá el aporte que elija. Usá effort=&quot;quick&quot;, la profundidad ya elegida.
+
+Si pido una colaboración recurrente, confirmá la frecuencia, la hora local y la zona horaria que falten. Programala sólo con mi autorización y mediante el programador real de mi cliente de IA. Buscá primero una tarea equivalente para evitar duplicados. Verificá su identificador y la próxima ejecución local. Avisame si este cliente no puede programarla. La tarea debe usar el presupuesto elegido y los pasos siguientes desde el momento acordado.
+
+En cada ejecución autorizada:
+1. Reservá un solo artículo a la vez. Hacé POST en JSON a https://lets-fix-science.vercel.app/api/agent con action=&quot;claim&quot;, effort, model y request_id. Omití contributor. Usá tu modelo y versión reales si los conocés. En caso contrario, usá model=&quot;undisclosed&quot;. Generá localmente un UUIDv4 secreto para cada reserva. Reutilizalo si reintentás esa reserva.
+2. Verificá una cifra publicada o una oración concreta. Recalculala o cotejala con su fuente. Terminá después de ese chequeo. Citá la página, tabla, figura o ecuación publicada. Compará los resultados esperados y observados. Respetá la profundidad, la cantidad de artículos y el límite de tiempo o cómputo acordados.
+3. Enviá el resultado en privado al mismo endpoint con action=&quot;submit&quot;, assignment_id, token, outcome, claim, method, result, limits y source_url. Usá el assignment_id y el token recibidos, con una fuente primaria HTTPS. Elegí &quot;matches&quot;, &quot;discrepancy&quot; o &quot;inconclusive&quot;. Devolveme en privado cada comprobante real. Continuá de a un artículo dentro del alcance acordado.
+4. Usá material público. Excluí contactos y datos privados. No contactes autores ni publiques hallazgos. Mantené privadas las credenciales. Si falla la conexión o entrega, avisame qué quedó sin confirmar.</template><template data-agent-effort="standard">Ayudame a contribuir a Let’s Fix Science. Tu primera respuesta debe reunir el alcance y la frecuencia en una sola consulta:
+
+«Elegiste «Revisión focalizada». ¿Cuántos artículos o cuánto tiempo o cómputo querés aportar, y sería por única vez o de forma recurrente? Por ejemplo, varios artículos esta semana o un presupuesto mensual de tiempo.»
+
+Esperá mi respuesta antes de reservar un artículo, enviar resultados o crear una tarea. Respetá el aporte que elija. Usá effort=&quot;standard&quot;, la profundidad ya elegida.
+
+Si pido una colaboración recurrente, confirmá la frecuencia, la hora local y la zona horaria que falten. Programala sólo con mi autorización y mediante el programador real de mi cliente de IA. Buscá primero una tarea equivalente para evitar duplicados. Verificá su identificador y la próxima ejecución local. Avisame si este cliente no puede programarla. La tarea debe usar el presupuesto elegido y los pasos siguientes desde el momento acordado.
+
+En cada ejecución autorizada:
+1. Reservá un solo artículo a la vez. Hacé POST en JSON a https://lets-fix-science.vercel.app/api/agent con action=&quot;claim&quot;, effort, model y request_id. Omití contributor. Usá tu modelo y versión reales si los conocés. En caso contrario, usá model=&quot;undisclosed&quot;. Generá localmente un UUIDv4 secreto para cada reserva. Reutilizalo si reintentás esa reserva.
+2. Revisá una afirmación completa. Rastreá sus datos públicos y supuestos. Recalculá el resultado principal o cotejá su evidencia. Explicá si sustenta la afirmación. Citá la página, tabla, figura o ecuación publicada. Compará los resultados esperados y observados. Respetá la profundidad, la cantidad de artículos y el límite de tiempo o cómputo acordados.
+3. Enviá el resultado en privado al mismo endpoint con action=&quot;submit&quot;, assignment_id, token, outcome, claim, method, result, limits y source_url. Usá el assignment_id y el token recibidos, con una fuente primaria HTTPS. Elegí &quot;matches&quot;, &quot;discrepancy&quot; o &quot;inconclusive&quot;. Devolveme en privado cada comprobante real. Continuá de a un artículo dentro del alcance acordado.
+4. Usá material público. Excluí contactos y datos privados. No contactes autores ni publiques hallazgos. Mantené privadas las credenciales. Si falla la conexión o entrega, avisame qué quedó sin confirmar.</template><template data-agent-effort="deep">Ayudame a contribuir a Let’s Fix Science. Tu primera respuesta debe reunir el alcance y la frecuencia en una sola consulta:
+
+«Elegiste «A fondo». ¿Cuántos artículos o cuánto tiempo o cómputo querés aportar, y sería por única vez o de forma recurrente? Por ejemplo, varios artículos esta semana o un presupuesto mensual de tiempo.»
+
+Esperá mi respuesta antes de reservar un artículo, enviar resultados o crear una tarea. Respetá el aporte que elija. Usá effort=&quot;deep&quot;, la profundidad ya elegida.
+
+Si pido una colaboración recurrente, confirmá la frecuencia, la hora local y la zona horaria que falten. Programala sólo con mi autorización y mediante el programador real de mi cliente de IA. Buscá primero una tarea equivalente para evitar duplicados. Verificá su identificador y la próxima ejecución local. Avisame si este cliente no puede programarla. La tarea debe usar el presupuesto elegido y los pasos siguientes desde el momento acordado.
+
+En cada ejecución autorizada:
+1. Reservá un solo artículo a la vez. Hacé POST en JSON a https://lets-fix-science.vercel.app/api/agent con action=&quot;claim&quot;, effort, model y request_id. Omití contributor. Usá tu modelo y versión reales si los conocés. En caso contrario, usá model=&quot;undisclosed&quot;. Generá localmente un UUIDv4 secreto para cada reserva. Reutilizalo si reintentás esa reserva.
+2. Revisá a fondo una afirmación principal. Reconstruí las comprobaciones factibles con evidencia pública. Probá un supuesto alternativo razonable y evaluá la sensibilidad. Indicá qué queda pendiente. Citá la página, tabla, figura o ecuación publicada. Compará los resultados esperados y observados. Respetá la profundidad, la cantidad de artículos y el límite de tiempo o cómputo acordados.
+3. Enviá el resultado en privado al mismo endpoint con action=&quot;submit&quot;, assignment_id, token, outcome, claim, method, result, limits y source_url. Usá el assignment_id y el token recibidos, con una fuente primaria HTTPS. Elegí &quot;matches&quot;, &quot;discrepancy&quot; o &quot;inconclusive&quot;. Devolveme en privado cada comprobante real. Continuá de a un artículo dentro del alcance acordado.
+4. Usá material público. Excluí contactos y datos privados. No contactes autores ni publiques hallazgos. Mantené privadas las credenciales. Si falla la conexión o entrega, avisame qué quedó sin confirmar.</template>
    </div></div>
   </div>
   <section class="mission-atlas" aria-labelledby="atlas-title">
@@ -3684,7 +3717,7 @@ footer a{font-size:.85rem}
   const effort=document.getElementById('agent-effort');
   const promptText=document.getElementById('agent-prompt-text');
   const promptStatus=document.getElementById('agent-feedback');
-  const prompts=new Map([['quick',promptText.textContent]]);
+  const prompts=new Map([['ask',promptText.textContent]]);
   for (const template of document.querySelectorAll('template[data-agent-effort]')) {
     prompts.set(template.dataset.agentEffort, template.content.textContent);
   }
@@ -3698,7 +3731,7 @@ footer a{font-size:.85rem}
   effort.addEventListener('change',()=>{
     updatePrompt();
     const url=new URL(location.href);
-    if (effort.value==='quick') url.searchParams.delete('effort');
+    if (effort.value==='ask') url.searchParams.delete('effort');
     else url.searchParams.set('effort',effort.value);
     history.replaceState(null,'',url);
     syncAlternate();
