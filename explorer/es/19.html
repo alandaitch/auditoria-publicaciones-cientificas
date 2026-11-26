@@ -1,0 +1,181 @@
+<!doctype html><html lang="es"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><base href="https://letsfixscience.com/es.html"><meta name="robots" content="noindex,follow"><title>Hallazgos · Página 19 | Let’s Fix Science</title><style>body{font:1rem/1.55 system-ui;max-width:55rem;margin:auto;padding:1rem}article{border-top:1px solid;padding:1rem 0}nav a{margin-right:1rem}</style><a href="https://letsfixscience.com/es.html#findings">Let’s Fix Science</a><h1>Hallazgos · Página 19</h1><main>
+    <article class="case" id="case-M200040" data-reach="1" data-type="reporting" data-severity="Media"
+             data-citations="0" data-status="Consulta enviada; sin evaluación científica registrada" data-status-label="Sin respuesta científica registrada" data-progress="open" data-contact="inquiry" data-year="2025"
+             data-date="2025-06" data-doi="">
+        <header class="card-head"><a class="case-id" href="#case-M200040" aria-label="Enlace al caso M200040">M200040</a>
+          <details class="priority-help"><summary class="pill">Prioridad · Media</summary>
+              <p data-help-copy>La prioridad indica qué casos revisamos primero. Encontrás el impacto científico concreto en «Qué cambiaría».</p></details></header>
+        <h3 class="paper-title" lang="en">Transformers from Diffusion: A Unified Framework for Neural Message Passing</h3>
+        <p class="meta">Journal of Machine Learning Research 26(129):1–47 · 2025-06</p>
+        
+        <div class="finding"><p><strong>Qué afirmaba el estudio.</strong> Las actualizaciones propuestas recuperan los ejemplos de difusión y paso de mensajes especificados.</p><p><strong>Observación.</strong> Eq.6 preserva cualquier señal constante, para toda matriz S. Las actualizaciones declaradas en Examples 1–2 producen señales no constantes en grafos irregulares. Las reducciones omiten términos dependientes del grado.</p><p><strong>Qué cambiaría.</strong> En grafos irregulares, los ejemplos ya no se deducen de la formulación general.</p></div>
+        <p class="primary-type">Observación principal · <a href="?type=reporting#findings">Inconsistencias en cifras o muestras publicadas</a></p>
+        <div class="card-notes"><div class="cite-line"><details class="cite-help">
+        <summary><strong>Citas.</strong> <b class="cite-number">0</b></summary><p data-help-copy>La fuente consultada registró cero publicaciones citantes en esa fecha. Para saber cuáles dependen del resultado observado, habría que leerlas individualmente.</p></details><span class="citation-source"><a href="https://explore.openaire.eu/search/result?id=doi_dedup___::9e8e681a85abe51257af92861e0f3544">OpenAIRE</a> · <time datetime="2026-11-25">2026-11-25</time></span></div>
+        <details class="state-help"><summary><strong>Avance.</strong> Observación abierta</summary>
+        <p><strong>Sin respuesta científica registrada.</strong> Enviamos la consulta. Todavía desconocemos cómo evalúan esa observación los autores.</p>
+        <p data-help-copy><strong>Estado del contacto.</strong> Consulta enviada</p></details></div>
+        <div class="card-links"><a href="https://jmlr.org/papers/v26/23-1672.html">Artículo original ↗</a></div>
+        <details><summary>Ver evidencia y límites</summary><div class="details-body"><h4>Ubicación</h4>Eq.6, página 8. Examples 1–2, página 11. Contribuciones y comparación editorial, página 5.<h4>Evidencia</h4><ul><li>Eq.6 equivale a Z⁺=[I−τdiag(S1)+τS]Z. Al sustituir Z=1, devuelve exactamente 1. Example 1 declara [I(1−τ)+τS]Z. En el camino obtiene (0.9267767,1.1035534,0.9267767), no constante. Example 2 declara [(1+τ)I+τA]Z; obtiene (1.5,1.75,1.5). Ningún reescalado global transforma esas salidas en una constante.</li><li>Añadir autoaristas a la normalización GCN tampoco restaura invariancia. La salida GCN usual es (0.9082483,1.1498299,0.9082483). Como control, Example 1 coincide cuando S tiene sumas de filas uno.</li><li>La reproducción raíz devuelve los valores publicados incorrectos y respeta ambas cotas espectrales.</li></ul><h4>Límites</h4>No refuta entrenamiento DIFFormer, benchmarks ni toda posible relación entre GNN y difusión. Una transformación dependiente del grado puede crear otras conexiones; cambia la identificación publicada. No auditamos aquí todos los teoremas energéticos.</div></details></article>
+    <article class="case" id="case-L200032" data-reach="1" data-type="theory" data-severity="Media"
+             data-citations="" data-status="Consulta enviada; sin evaluación científica registrada" data-status-label="Sin respuesta científica registrada" data-progress="open" data-contact="inquiry" data-year="2026"
+             data-date="2026-09-29" data-doi="">
+        <header class="card-head"><a class="case-id" href="#case-L200032" aria-label="Enlace al caso L200032">L200032</a>
+          <details class="priority-help"><summary class="pill">Prioridad · Media</summary>
+              <p data-help-copy>La prioridad indica qué casos revisamos primero. Encontrás el impacto científico concreto en «Qué cambiaría».</p></details></header>
+        <h3 class="paper-title" lang="en">CalPro: Prior-Aware Evidential Conformal Prediction with Structure-Aware Sensitivity Bounds for Protein Structures</h3>
+        <p class="meta">ICML2026,PMLR306:112497–112520 · 2026-09-29</p>
+        
+        <div class="finding"><p><strong>Qué afirmaba el estudio.</strong> La distancia entre distribuciones acota linealmente el cambio en la predicción conformal umbralizada.</p><p><strong>Observación.</strong> La variación de una probabilidad umbralizada no está acotada linealmente por W1.</p><p><strong>Qué cambiaría.</strong> Pequeños desplazamientos alrededor del umbral pueden producir cambios mucho mayores que la cota.</p></div>
+        <p class="primary-type">Observación principal · <a href="?type=theory#findings">Afirmaciones y supuestos matemáticos</a></p>
+        <div class="card-notes"><div class="cite-line"><details class="cite-help">
+        <summary><strong>Citas.</strong> Sin recuento verificado</summary><p data-help-copy>Todavía falta verificar cuántas publicaciones citan este artículo.</p></details></div>
+        <details class="state-help"><summary><strong>Avance.</strong> Observación abierta</summary>
+        <p><strong>Sin respuesta científica registrada.</strong> Enviamos la consulta. Todavía desconocemos cómo evalúan esa observación los autores.</p>
+        <p data-help-copy><strong>Estado del contacto.</strong> Consulta enviada</p></details></div>
+        <div class="card-links"><a href="https://proceedings.mlr.press/v306/shihab26b.html">Artículo original ↗</a></div>
+        <details><summary>Ver evidencia y límites</summary><div class="details-body"><h4>Ubicación</h4>LemmaH.1/Eq16,p22; Theorem4.3/Eq9,p4; Corollary4.4,p5.<h4>Evidencia</h4><ul><li>D0Uniform[1,2], desplazar[1.4,1.5] por+.1. Acoplamiento cuesta.01; cambio de media.01 certifica W1 exacto.</li><li>s(y)=y,Ms=Ls=1,t1.5: cola.5→.6 frente cota.51. Ambas distribuciones conservan soporte[1,2].</li><li>Extensión: priorN(0,1),posteriorUniform[-.001,.001],sψ=abs(y−ψ),KL7.1335468,Ms2global,Ls1.</li><li>ncal100000,δ.05: riesgoD1=.5995. Con probabilidad≥.9999999979, RHS≤.5373561; contradice la garantía.</li><li>Prueba conserva indebidamente cota marginal de densidad tras condicionar distancia aleatoria. Crítica pública anterior no identifica ese paso ni su contraejemplo.</li></ul><h4>Límites</h4><ul><li>La cobertura conformal IID no queda refutada.</li><li>No reconstruí resultados sobre proteínas ni generé secuencias o estructuras.</li><li>El ejemplo PAC-Bayes usa una familia escalar admisible, no entrenamiento de redes.</li><li>Existe una crítica pública previa sobre otros aspectos de la misma garantía.</li></ul></div></details></article>
+    <article class="case" id="case-M200047" data-reach="1" data-type="theory" data-severity="Media"
+             data-citations="" data-status="Consulta enviada; sin evaluación científica registrada" data-status-label="Sin respuesta científica registrada" data-progress="open" data-contact="inquiry" data-year="2026"
+             data-date="2026-05" data-doi="">
+        <header class="card-head"><a class="case-id" href="#case-M200047" aria-label="Enlace al caso M200047">M200047</a>
+          <details class="priority-help"><summary class="pill">Prioridad · Media</summary>
+              <p data-help-copy>La prioridad indica qué casos revisamos primero. Encontrás el impacto científico concreto en «Qué cambiaría».</p></details></header>
+        <h3 class="paper-title" lang="en">Generalized Resubstitution for Regression Error Estimation</h3>
+        <p class="meta">Journal of Machine Learning Research 27(91):1–54 · 2026-05</p>
+        
+        <div class="finding"><p><strong>Qué afirmaba el estudio.</strong> El suavizado gaussiano con covarianza fija estima consistentemente el error de regresión.</p><p><strong>Observación.</strong> Proposition 11 afirma consistencia Gaussian bolstering con covarianza fija y dimensión VC finita. Un ejemplo acotado converge al riesgo suavizado, distinto del original. La prueba confunde simetría Lebesgue con simetría Radon–Nikodym respecto a ν.</p><p><strong>Qué cambiaría.</strong> Aun con más datos, el estimador puede converger al riesgo de otro modelo suavizado.</p></div>
+        <p class="primary-type">Observación principal · <a href="?type=theory#findings">Afirmaciones y supuestos matemáticos</a></p>
+        <div class="card-notes"><div class="cite-line"><details class="cite-help">
+        <summary><strong>Citas.</strong> Sin recuento verificado</summary><p data-help-copy>Todavía falta verificar cuántas publicaciones citan este artículo.</p></details></div>
+        <details class="state-help"><summary><strong>Avance.</strong> Observación abierta</summary>
+        <p><strong>Sin respuesta científica registrada.</strong> Enviamos la consulta. Todavía desconocemos cómo evalúan esa observación los autores.</p>
+        <p data-help-copy><strong>Estado del contacto.</strong> Consulta enviada</p></details></div>
+        <div class="card-links"><a href="https://jmlr.org/papers/v27/24-1905.html">Artículo original ↗</a></div>
+        <details><summary>Ver evidencia y límites</summary><div class="details-body"><h4>Ubicación</h4>Definition 2, página 13; Example 1 y Proposition 11, página 17. Extensión XY, página 18. Proof of Proposition 11, página 44.<h4>Evidencia</h4><ul><li>El riesgo original es 1/3+(1+exp(-2))/2. La ley fuerte da límite suavizado 1/3+(1+exp(-4))/2. La diferencia es -0.05850982217. Definition 2 exige converger al riesgo original. El control XY plenamente absolutamente continuo reproduce el sesgo con signo inverso.</li><li>Contrarrevisión independiente y reproducción numérica ejecutadas; alcance limitado a la garantía escrita.</li></ul><h4>Límites</h4><ul><li>No refuta Corollary 10 bajo simetría Radon–Nikodym auténtica. Los resultados con covarianzas decrecientes quedan fuera. No reconstruimos experimentos ni ejecutamos el paquete R.</li></ul></div></details></article>
+    <article class="case" id="case-M200023" data-reach="1" data-type="theory" data-severity="Media"
+             data-citations="" data-status="Consulta enviada; sin evaluación científica registrada" data-status-label="Sin respuesta científica registrada" data-progress="open" data-contact="inquiry" data-year="2025"
+             data-date="2025-08" data-doi="">
+        <header class="card-head"><a class="case-id" href="#case-M200023" aria-label="Enlace al caso M200023">M200023</a>
+          <details class="priority-help"><summary class="pill">Prioridad · Media</summary>
+              <p data-help-copy>La prioridad indica qué casos revisamos primero. Encontrás el impacto científico concreto en «Qué cambiaría».</p></details></header>
+        <h3 class="paper-title" lang="en">Jackpot 2.0 : variété d’incertitude pour les problèmes inverses</h3>
+        <p class="meta">30e Colloque GRETSI sur le traitement du signal et des images, Strasbourg, pp.765–768, 2025 · 2025-08</p>
+        
+        <div class="finding"><p><strong>Qué afirmaba el estudio.</strong> Una combinación constante de parámetros epidémicos conserva la trayectoria de infecciones.</p><p><strong>Observación.</strong> Proposition 4.1 declara que βS0−γ constante preserva la trayectoria observada I(t). Esa combinación sólo fija la pendiente inicial; las observaciones posteriores cambian.</p><p><strong>Qué cambiaría.</strong> Datos posteriores al inicio pueden distinguir parámetros que producen la misma pendiente inicial.</p></div>
+        <p class="primary-type">Observación principal · <a href="?type=theory#findings">Afirmaciones y supuestos matemáticos</a></p>
+        <div class="card-notes"><div class="cite-line"><details class="cite-help">
+        <summary><strong>Citas.</strong> Sin recuento verificado</summary><p data-help-copy>Todavía falta verificar cuántas publicaciones citan este artículo.</p></details></div>
+        <details class="state-help"><summary><strong>Avance.</strong> Observación abierta</summary>
+        <p><strong>Sin respuesta científica registrada.</strong> Enviamos la consulta. Todavía desconocemos cómo evalúan esa observación los autores.</p>
+        <p data-help-copy><strong>Estado del contacto.</strong> Consulta enviada</p></details></div>
+        <div class="card-links"><a href="https://gretsi.fr/archives/colloque/2025">Artículo original ↗</a></div>
+        <details><summary>Ver evidencia y límites</summary><div class="details-body"><h4>Ubicación</h4>Section 4.2, página 4: Eq.14, Proposition 4.1, Figure 3 y su interpretación. Definición de U0: Section 1, página 1.<h4>Evidencia</h4>Sea r0=βS0−γ. La ecuación produce Isecond(0)=I0 r0²−β²S0 I0². Para los dos parámetros, Isecond(0)=13167/6250000 y 8811/20000000; por tanto las trayectorias continuas difieren. Bajo Euler, I1=I0(1+h r0) coincide, pero I2 difiere exactamente −37822059/25000000000. En general, r=Iprime/I cumple rprime/I=−βr−βγ. Cuando r varía, dos valores identifican β y γ; luego S0=(r0+γ)/β.<h4>Límites</h4>No ejecutamos Jackpot 2.0 ni reconstruimos Figure 3. No refutamos resultados sobre Goodwin ni todo el método. Una tolerancia positiva puede producir incertidumbre práctica alta, compatible con nuestra contraprueba exacta.</div></details></article>
+    <article class="case" id="case-M200026" data-reach="1" data-type="theory" data-severity="Media"
+             data-citations="" data-status="Consulta enviada; sin evaluación científica registrada" data-status-label="Sin respuesta científica registrada" data-progress="open" data-contact="inquiry" data-year="2025"
+             data-date="2025-10" data-doi="">
+        <header class="card-head"><a class="case-id" href="#case-M200026" aria-label="Enlace al caso M200026">M200026</a>
+          <details class="priority-help"><summary class="pill">Prioridad · Media</summary>
+              <p data-help-copy>La prioridad indica qué casos revisamos primero. Encontrás el impacto científico concreto en «Qué cambiaría».</p></details></header>
+        <h3 class="paper-title" lang="en">Mean-Field Variational Inference via Wasserstein Gradient Flow</h3>
+        <p class="meta">Journal of Machine Learning Research 26(309):1–46, 2025 · 2025-10</p>
+        
+        <div class="finding"><p><strong>Qué afirmaba el estudio.</strong> El objetivo entrópico favorece la distribución transportada buscada mediante transformaciones generales.</p><p><strong>Observación.</strong> Eq. 40 aplica una identidad entrópica para mapas inyectivos a mapas generales. Sin inyectividad, puede recompensar multiplicidad creciente de preimágenes sin cambiar la distribución transportada.</p><p><strong>Qué cambiaría.</strong> El optimizador puede mejorar su puntuación duplicando preimágenes sin mejorar la distribución final.</p></div>
+        <p class="primary-type">Observación principal · <a href="?type=theory#findings">Afirmaciones y supuestos matemáticos</a></p>
+        <div class="card-notes"><div class="cite-line"><details class="cite-help">
+        <summary><strong>Citas.</strong> Sin recuento verificado</summary><p data-help-copy>Todavía falta verificar cuántas publicaciones citan este artículo.</p></details></div>
+        <details class="state-help"><summary><strong>Avance.</strong> Observación abierta</summary>
+        <p><strong>Sin respuesta científica registrada.</strong> Enviamos la consulta. Todavía desconocemos cómo evalúan esa observación los autores.</p>
+        <p data-help-copy><strong>Estado del contacto.</strong> Consulta enviada</p></details></div>
+        <div class="card-links"><a href="https://jmlr.org/papers/v26/24-0793.html">Artículo original ↗</a></div>
+        <details><summary>Ver evidencia y límites</summary><div class="details-body"><h4>Ubicación</h4>Theorem 8 y Eq. 40, página 30. Prosa posterior: unconstrained y equivalencia con JKO. Apéndice C.5 del suplemento, página 64.<h4>Evidencia</h4>Para la fuente propuesta, E||Tn||²=(e²−1)/2, E[(X,Y)·Tn]=−(e−1)/n y E|| (X,Y)||²=1/3+4π²/3. Además E log det DTn=log n+1. Entonces Eq. 40 vale Jn=(e²−1)/2+2π²/3−5/6+(e−1)/n−log n→−∞. El problema JKO normalizado es KL(ν||N(0,I2))+W2²(ν,ρ)/2≥0. La identidad entrópica omite exactamente log n por las n preimágenes.<h4>Límites</h4>No afirmamos una implicación falsa con argmin existente: aquí la optimización anunciada carece de mínimo. No refutamos el JKO exacto ni esquemas con mapas inyectivos. No ejecutamos redes ni reconstruimos resultados experimentales. No localizamos repositorio oficial vinculado.</div></details></article>
+    <article class="case" id="case-L200003" data-reach="1" data-type="metrics" data-severity="Media"
+             data-citations="" data-status="Consulta enviada; sin evaluación científica registrada" data-status-label="Sin respuesta científica registrada" data-progress="open" data-contact="inquiry" data-year="2026"
+             data-date="2026" data-doi="">
+        <header class="card-head"><a class="case-id" href="#case-L200003" aria-label="Enlace al caso L200003">L200003</a>
+          <details class="priority-help"><summary class="pill">Prioridad · Media</summary>
+              <p data-help-copy>La prioridad indica qué casos revisamos primero. Encontrás el impacto científico concreto en «Qué cambiaría».</p></details></header>
+        <h3 class="paper-title" lang="en">SAFER: Risk-Constrained Sample-then-Filter in Large Language Models</h3>
+        <p class="meta">International Conference on Learning Representations 2026 (ICLR 2026) · 2026</p>
+        
+        <div class="finding"><p><strong>Qué afirmaba el estudio.</strong> La segunda etapa filtra respuestas conforme al criterio de evaluación seleccionado.</p><p><strong>Observación.</strong> StageII utiliza similitud semántica aunque se solicita ROUGE, entailment o evaluación LLM.</p><p><strong>Qué cambiaría.</strong> La evaluación sólo permite concluir sobre la similitud semántica efectivamente usada al filtrar.</p></div>
+        <p class="primary-type">Observación principal · <a href="?type=metrics#findings">Métricas y medición</a></p>
+        <div class="card-notes"><div class="cite-line"><details class="cite-help">
+        <summary><strong>Citas.</strong> Sin recuento verificado</summary><p data-help-copy>Todavía falta verificar cuántas publicaciones citan este artículo.</p></details></div>
+        <details class="state-help"><summary><strong>Avance.</strong> Observación abierta</summary>
+        <p><strong>Sin respuesta científica registrada.</strong> Enviamos la consulta. Todavía desconocemos cómo evalúan esa observación los autores.</p>
+        <p data-help-copy><strong>Estado del contacto.</strong> Consulta enviada</p></details></div>
+        <div class="card-links"><a href="https://proceedings.iclr.cc/paper_files/paper/2026/hash/582e9771ac8527cb6390e5e9444a0fee-Abstract-Conference.html">Artículo original ↗</a></div>
+        <details><summary>Ver evidencia y límites</summary><div class="details-body"><h4>Ubicación</h4>code/open_domain_risk_control_second.py:113,174–178,196,214. ApéndiceE.1, Tablas2–3.<h4>Evidencia</h4>La etapaI correcta selecciona dos candidatos. StageII vuelve al caché semántico y selecciona umbral.1. Conserva solamente el candidato erróneo según ROUGE. Reporta EER0, aunque ROUGE da EER1.<h4>Límites</h4>No reproduce filas publicadas. Afecta la implementación oficial de evaluación alternativa. No afirmamos que todas las tablas provengan de este archivo intacto. La rama predeterminada de similitud no cambia por este fallo.<aside class="translation-note"><p>Los pasajes técnicos incluyen traducción asistida. Compará la notación y los valores con el texto original disponible abajo.</p><details><summary>Texto original del registro de auditoría</summary><h4>Ubicación</h4>code/open_domain_risk_control_second.py:113,174–178,196,214. ApéndiceE.1, Tables2–3.</details></aside></div></details></article>
+    <article class="case" id="case-M200037" data-reach="1" data-type="theory" data-severity="Media"
+             data-citations="" data-status="Consulta enviada; sin evaluación científica registrada" data-status-label="Sin respuesta científica registrada" data-progress="open" data-contact="inquiry" data-year="2026"
+             data-date="2026-06" data-doi="">
+        <header class="card-head"><a class="case-id" href="#case-M200037" aria-label="Enlace al caso M200037">M200037</a>
+          <details class="priority-help"><summary class="pill">Prioridad · Media</summary>
+              <p data-help-copy>La prioridad indica qué casos revisamos primero. Encontrás el impacto científico concreto en «Qué cambiaría».</p></details></header>
+        <h3 class="paper-title" lang="en">Sliced Wasserstein Regression</h3>
+        <p class="meta">Journal of Machine Learning Research, 27(153):1–69 · 2026-06</p>
+        
+        <div class="finding"><p><strong>Qué afirmaba el estudio.</strong> La aproximación de Fourier converge uniformemente para las funciones suaves sobre el soporte.</p><p><strong>Observación.</strong> La prueba confunde suavidad sobre el soporte con suavidad de la extensión por cero. El corte Fourier conserva un error uniforme positivo, pese a la normalización publicada.</p><p><strong>Qué cambiaría.</strong> Puede persistir un error en el borde aunque se aumente el número de frecuencias.</p></div>
+        <p class="primary-type">Observación principal · <a href="?type=theory#findings">Afirmaciones y supuestos matemáticos</a></p>
+        <div class="card-notes"><div class="cite-line"><details class="cite-help">
+        <summary><strong>Citas.</strong> Sin recuento verificado</summary><p data-help-copy>Todavía falta verificar cuántas publicaciones citan este artículo.</p></details></div>
+        <details class="state-help"><summary><strong>Avance.</strong> Observación abierta</summary>
+        <p><strong>Sin respuesta científica registrada.</strong> Enviamos la consulta. Todavía desconocemos cómo evalúan esa observación los autores.</p>
+        <p data-help-copy><strong>Estado del contacto.</strong> Consulta enviada</p></details></div>
+        <div class="card-links"><a href="https://jmlr.org/papers/v27/24-1780.html">Artículo original ↗</a></div>
+        <details><summary>Ver evidencia y límites</summary><div class="details-body"><h4>Ubicación</h4>F1 y G1, página 4. Eqs.5–6 y Theorem 2, página 6. Proposition 3, página 7. Prueba H.3, páginas 46–47.<h4>Evidencia</h4>Para la uniforme 1D, el inverso sin normalizar es qτ(x)=[Si(τx)+Si(τ(1−x))]/π. Es positivo sobre D. El normalizador exacto es Zτ=(2/π)[Si(τ)+(cosτ−1)/τ], que tiende a 1. En xτ=τ⁻², qτ(xτ)/Zτ tiende a 1/2. Por tanto el error uniforme tiende al menos a 1/2. Theorem 2 exige O(τ⁻¹), que tiende a cero. La misma falla aparece en la bola 3D: el error interior tiende a 3/(8π).<h4>Límites</h4>No se recalculan aplicaciones financieras o climáticas. No se refuta convergencia L2 ni convergencia sobre compactos interiores fijos. Una proyección adicional completamente especificada puede cambiar el operador; Eq.6 sólo normaliza. Suavidad global y borde nulo también cambian las hipótesis.</div></details></article>
+    <article class="case" id="case-M200048" data-reach="1" data-type="theory" data-severity="Media"
+             data-citations="" data-status="Consulta enviada; sin evaluación científica registrada" data-status-label="Sin respuesta científica registrada" data-progress="open" data-contact="inquiry" data-year="2026"
+             data-date="2026-05" data-doi="">
+        <header class="card-head"><a class="case-id" href="#case-M200048" aria-label="Enlace al caso M200048">M200048</a>
+          <details class="priority-help"><summary class="pill">Prioridad · Media</summary>
+              <p data-help-copy>La prioridad indica qué casos revisamos primero. Encontrás el impacto científico concreto en «Qué cambiaría».</p></details></header>
+        <h3 class="paper-title" lang="en">Stochastic Differential Equations models for Least-Squares Stochastic Gradient Descent</h3>
+        <p class="meta">Journal of Machine Learning Research 27(75):1–42 · 2026-05</p>
+        
+        <div class="finding"><p><strong>Qué afirmaba el estudio.</strong> Bajo los supuestos indicados aparecen colas suficientemente pesadas como para generar momentos infinitos.</p><p><strong>Observación.</strong> Proposition 10 afirma existencia de momentos infinitos para n≥2d bajo las condiciones ruidosas. Un diseño normalizado de rango completo elimina el ruido multiplicativo efectivo. El SDE publicado se vuelve Ornstein–Uhlenbeck, con estacionaria gaussiana.</p><p><strong>Qué cambiaría.</strong> Un diseño permitido puede producir una distribución estacionaria gaussiana con momentos finitos.</p></div>
+        <p class="primary-type">Observación principal · <a href="?type=theory#findings">Afirmaciones y supuestos matemáticos</a></p>
+        <div class="card-notes"><div class="cite-line"><details class="cite-help">
+        <summary><strong>Citas.</strong> Sin recuento verificado</summary><p data-help-copy>Todavía falta verificar cuántas publicaciones citan este artículo.</p></details></div>
+        <details class="state-help"><summary><strong>Avance.</strong> Observación abierta</summary>
+        <p><strong>Sin respuesta científica registrada.</strong> Enviamos la consulta. Todavía desconocemos cómo evalúan esa observación los autores.</p>
+        <p data-help-copy><strong>Estado del contacto.</strong> Consulta enviada</p></details></div>
+        <div class="card-links"><a href="https://jmlr.org/papers/v27/24-1025.html">Artículo original ↗</a></div>
+        <details><summary>Ver evidencia y límites</summary><div class="details-body"><h4>Ubicación</h4>Eq. 13, página 8; condiciones de Section 4 y 4.2, páginas 8–12. Proposition 10, página 15. Lemma 16 y prueba, páginas 32–35.<h4>Evidencia</h4><ul><li>La definición de Rx da X^T Rx=(-1,1) para todo theta. Eq. 13 se reduce a dtheta=-theta*dt+sqrt(gamma)*dW. Su estacionaria es N(0,gamma/2), con MGF exp(gamma*s²/4) finita para todo s. Todos los momentos absolutos son finitos. La cota de Lemma 16 tiene cociente 1/eta²→0.</li><li>Contrarrevisión independiente y reproducción numérica ejecutadas; alcance limitado a la garantía escrita.</li></ul><h4>Límites</h4><ul><li>Una condición adicional de ruido multiplicativo coercivo podría excluir el ejemplo. No negamos colas pesadas genéricas ni refutamos las garantías de convergencia. No reconstruimos SGD discreto ni figuras.</li></ul></div></details></article>
+    <article class="case" id="case-M200052" data-reach="1" data-type="theory" data-severity="Media"
+             data-citations="" data-status="Consulta enviada; sin evaluación científica registrada" data-status-label="Sin respuesta científica registrada" data-progress="open" data-contact="inquiry" data-year="2026"
+             data-date="2026-06" data-doi="">
+        <header class="card-head"><a class="case-id" href="#case-M200052" aria-label="Enlace al caso M200052">M200052</a>
+          <details class="priority-help"><summary class="pill">Prioridad · Media</summary>
+              <p data-help-copy>La prioridad indica qué casos revisamos primero. Encontrás el impacto científico concreto en «Qué cambiaría».</p></details></header>
+        <h3 class="paper-title" lang="en">Underdamped Langevin MCMC with third order convergence</h3>
+        <p class="meta">Journal of Machine Learning Research 27(126):1–63 · 2026-06</p>
+        
+        <div class="finding"><p><strong>Qué afirmaba el estudio.</strong> El error del muestreo se controla mediante la discrepancia inicial de posiciones.</p><p><strong>Observación.</strong> La cota usa sólo W2 marginal inicial de posición, omitiendo dependencia inicial posición-velocidad.</p><p><strong>Qué cambiaría.</strong> La dependencia inicial entre posición y velocidad también puede determinar el error posterior.</p></div>
+        <p class="primary-type">Observación principal · <a href="?type=theory#findings">Afirmaciones y supuestos matemáticos</a></p>
+        <div class="card-notes"><div class="cite-line"><details class="cite-help">
+        <summary><strong>Citas.</strong> Sin recuento verificado</summary><p data-help-copy>Todavía falta verificar cuántas publicaciones citan este artículo.</p></details></div>
+        <details class="state-help"><summary><strong>Avance.</strong> Observación abierta</summary>
+        <p><strong>Sin respuesta científica registrada.</strong> Enviamos la consulta. Todavía desconocemos cómo evalúan esa observación los autores.</p>
+        <p data-help-copy><strong>Estado del contacto.</strong> Consulta enviada</p></details></div>
+        <div class="card-links"><a href="https://jmlr.org/papers/v27/25-2122.html">Artículo original ↗</a></div>
+        <details><summary>Ver evidencia y límites</summary><div class="details-body"><h4>Ubicación</h4>Definition 1, página 2; Theorem 2, página 3, Equation 4; Section 2.6.<h4>Evidencia</h4><ul><li>Definition1 permite una distribución conjunta inicial π0.</li><li>Theorem2 requiere momento segundo de X0 y marginal gaussiana para V0, sin independencia.</li><li>Potencial x²/2, u=1, gamma=2; ambas marginales son gaussianas estándar con correlación0,5.</li><li>La covarianza conjunta es positiva definida, con determinante0,75.</li><li>El error Wasserstein inicial de posición es exactamente cero.</li><li>La difusión exacta tiene Var(X_t)=1+t(1+t)exp(−2t).</li><li>En t=1, el error converge a0,1272402435 mientras Ch³ converge a cero.</li><li>Dos implementaciones independientes de momentos confirman el límite.</li><li>Con independencia inicial, el control conserva convergencia de orden tres.</li></ul><h4>Límites</h4><ul><li>Agregar independencia inicial repara este contraejemplo.</li><li>No refuto orden tres para inicializaciones independientes.</li><li>No reconstruyo benchmarks ni atribuyo errores experimentales.</li><li>Excluyo errata de norma y restricciones superiores de paso.</li><li>El contacto no está marcado corresponding author en el PDF.</li></ul></div></details></article>
+    <article class="case" id="case-M200036" data-reach="1" data-type="theory" data-severity="Media"
+             data-citations="" data-status="Respuesta automática; sin evaluación científica" data-status-label="Respuesta automática" data-progress="open" data-contact="inquiry" data-year="2026"
+             data-date="2026-03" data-doi="">
+        <header class="card-head"><a class="case-id" href="#case-M200036" aria-label="Enlace al caso M200036">M200036</a>
+          <details class="priority-help"><summary class="pill">Prioridad · Media</summary>
+              <p data-help-copy>La prioridad indica qué casos revisamos primero. Encontrás el impacto científico concreto en «Qué cambiaría».</p></details></header>
+        <h3 class="paper-title" lang="en">Vector-Valued Gaussian Processes for Approximating Divergence- or Rotation-free Vector Fields</h3>
+        <p class="meta">Journal of Machine Learning Research,27(74):1–36 · 2026-03</p>
+        
+        <div class="finding"><p><strong>Qué afirmaba el estudio.</strong> El espacio propuesto contiene todos los campos sin divergencia del dominio tridimensional.</p><p><strong>Observación.</strong> La simple conexidad tridimensional no garantiza extensión solenoidal global. Theorem 22 identifica incorrectamente el RKHS con todos los campos solenoidales del dominio.</p><p><strong>Qué cambiaría.</strong> Algunos campos permitidos por la geometría quedan fuera de la representación gaussiana.</p></div>
+        <p class="primary-type">Observación principal · <a href="?type=theory#findings">Afirmaciones y supuestos matemáticos</a></p>
+        <div class="card-notes"><div class="cite-line"><details class="cite-help">
+        <summary><strong>Citas.</strong> Sin recuento verificado</summary><p data-help-copy>Todavía falta verificar cuántas publicaciones citan este artículo.</p></details></div>
+        <details class="state-help"><summary><strong>Avance.</strong> Observación abierta</summary>
+        <p><strong>Respuesta automática.</strong> Llegó una respuesta automática. Aún esperamos una evaluación de la observación.</p>
+        <p data-help-copy><strong>Estado del contacto.</strong> Consulta enviada</p></details></div>
+        <div class="card-links"><a href="https://jmlr.org/papers/v27/24-0885.html">Artículo original ↗</a></div>
+        <details><summary>Ver evidencia y límites</summary><div class="details-body"><h4>Ubicación</h4>Proposition 21, páginas21–22; Theorem 22, página22; definiciónHτ(D;div), página21; Assumption 26, página23.<h4>Evidencia</h4>Cada sección Kdiv(·,y)c es globalmente solenoidal y suave. Su flujo por cualquier esfera es cero, mediante Gauss. La diagonal del kernel está acotada sobre cada esfera compacta, así convergencia RKHS implica convergencia uniforme allí. Todo elemento RKHS conserva flujo cero. En cambio, v=x/|x|³ tiene flujo 4π por cada esfera interior. Por tanto v pertenece al espacio Sobolev declarado y no al RKHS. En r=3/2, error uniforme≥4/9 para cualquier aproximante. Además, Cauchy–Schwarz sobre esferas e integración radial dan ||g−v||L2(D)²≥2π.<h4>Límites</h4>Theorem 27 incorpora explícitamente la identificación RKHS como hipótesis; no afirmamos un contraejemplo con todas sus hipótesis cumplidas. No se refuta positividad del kernel, aproximación en bolas ni resultados experimentales. La causa requiere topología tridimensional o condiciones de flujo adicionales.</div></details></article></main><nav><a href="https://alandaitch.github.io/lets-fix-science/explorer/es/18.html">Anterior</a></nav></html>

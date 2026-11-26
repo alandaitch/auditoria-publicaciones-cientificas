@@ -1,0 +1,181 @@
+<!doctype html><html lang="es"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><base href="https://letsfixscience.com/es.html"><meta name="robots" content="noindex,follow"><title>Hallazgos · Página 1 | Let’s Fix Science</title><style>body{font:1rem/1.55 system-ui;max-width:55rem;margin:auto;padding:1rem}article{border-top:1px solid;padding:1rem 0}nav a{margin-right:1rem}</style><a href="https://letsfixscience.com/es.html#findings">Let’s Fix Science</a><h1>Hallazgos · Página 1</h1><main>
+    <article class="case" id="case-MLX17" data-reach="1" data-type="validation-leakage" data-severity="Alta"
+             data-citations="1084" data-status="Consulta enviada; sin evaluación científica registrada" data-status-label="Sin respuesta científica registrada" data-progress="open" data-contact="inquiry" data-year="2022"
+             data-date="2022-03-23" data-doi="10.1038/s41467-022-29283-8">
+        <header class="card-head"><a class="case-id" href="#case-MLX17" aria-label="Enlace al caso MLX17">MLX17</a>
+          <details class="priority-help"><summary class="pill">Prioridad · Alta</summary>
+              <p data-help-copy>La prioridad indica qué casos revisamos primero. Encontrás el impacto científico concreto en «Qué cambiaría».</p></details></header>
+        <h3 class="paper-title" lang="en">Assessment of global health risk of antibiotic resistance genes</h3>
+        <p class="meta">Nature Communications · 2022-03-23</p>
+        
+        <div class="finding"><p><strong>Qué afirmaba el estudio.</strong> La validación estima la capacidad del clasificador para identificar riesgo por resistencia antibiótica.</p><p><strong>Observación.</strong> RandomForest se ajusta con todos los datos antes del bucle. Las particiones de entrenamiento nunca se usan.</p><p><strong>Qué cambiaría.</strong> El rendimiento publicado no mide cuánto generaliza el clasificador a registros de resistencia nuevos.</p></div>
+        <p class="primary-type">Observación principal · <a href="?type=validation-leakage#findings">Filtración de datos en la evaluación</a></p>
+        <div class="card-notes"><div class="cite-line"><details class="cite-help">
+        <summary><strong>Citas.</strong> <b class="cite-number">1084</b></summary><p data-help-copy>La cifra cuenta publicaciones que citaron el artículo hasta la fecha indicada. Para saber cuáles dependen del resultado observado, habría que leerlas individualmente.</p></details><span class="citation-source"><a href="https://openalex.org/W4220927247">OpenAlex</a> · <time datetime="2026-11-25">2026-11-25</time></span></div>
+        <details class="state-help"><summary><strong>Avance.</strong> Observación abierta</summary>
+        <p><strong>Sin respuesta científica registrada.</strong> Enviamos la consulta. Todavía desconocemos cómo evalúan esa observación los autores.</p>
+        <p data-help-copy><strong>Estado del contacto.</strong> Consulta enviada</p></details></div>
+        <div class="card-links"><a href="https://www.nature.com/articles/s41467-022-29283-8">Artículo original ↗</a></div>
+        <details><summary>Ver evidencia y límites</summary><div class="details-body"><h4>Ubicación</h4>Machine learning model building and assessing.py:45y50–60; Methods: Machine learning.<h4>Evidencia</h4>Ejecuté script original con datos publicados:712 filas y18 predictores. Sólo ocurre un fit global. Media aparente69.44%; validación correcta35.92%, mismas particiones.<h4>Límites</h4>Semilla190 fijada por mí. No recuperé modelo ni semilla originales. No refuta el cálculo independiente del índice de riesgo.<p><a href="https://github.com/ZhenyanZhang/ARG-global/issues/3">Consulta técnica pública ↗</a></p></div></details></article>
+    <article class="case" id="case-MLX07" data-reach="1" data-type="validation-leakage" data-severity="Media"
+             data-citations="1019" data-status="Consulta enviada; sin evaluación científica registrada" data-status-label="Sin respuesta científica registrada" data-progress="open" data-contact="inquiry" data-year="2022"
+             data-date="2022-02-10" data-doi="10.1038/s41467-022-28421-6">
+        <header class="card-head"><a class="case-id" href="#case-MLX07" aria-label="Enlace al caso MLX07">MLX07</a>
+          <details class="priority-help"><summary class="pill">Prioridad · Media</summary>
+              <p data-help-copy>La prioridad indica qué casos revisamos primero. Encontrás el impacto científico concreto en «Qué cambiaría».</p></details></header>
+        <h3 class="paper-title" lang="en">Machine learning-based integration develops an immune-derived lncRNA signature for improving outcomes in colorectal cancer</h3>
+        <p class="meta">Nature Communications · 2022-02-10</p>
+        
+        <div class="finding"><p><strong>Qué afirmaba el estudio.</strong> La concordancia en cohortes externas mide la capacidad pronóstica de la firma entrenada.</p><p><strong>Observación.</strong> El C-index proviene de Cox ajustado sobre outcomes externos. Puede invertir el riesgo del predictor original.</p><p><strong>Qué cambiaría.</strong> La concordancia externa puede favorecer una clasificación de riesgo opuesta a la entrenada.</p></div>
+        <p class="primary-type">Observación principal · <a href="?type=validation-leakage#findings">Filtración de datos en la evaluación</a></p>
+        <div class="card-notes"><div class="cite-line"><details class="cite-help">
+        <summary><strong>Citas.</strong> <b class="cite-number">1019</b></summary><p data-help-copy>La cifra cuenta publicaciones que citaron el artículo hasta la fecha indicada. Para saber cuáles dependen del resultado observado, habría que leerlas individualmente.</p></details><span class="citation-source"><a href="https://openalex.org/W4211163163">OpenAlex</a> · <time datetime="2026-11-25">2026-11-25</time></span></div>
+        <details class="state-help"><summary><strong>Avance.</strong> Observación abierta</summary>
+        <p><strong>Sin respuesta científica registrada.</strong> Enviamos la consulta. Todavía desconocemos cómo evalúan esa observación los autores.</p>
+        <p data-help-copy><strong>Estado del contacto.</strong> Consulta enviada</p></details></div>
+        <div class="card-links"><a href="https://www.nature.com/articles/s41467-022-28421-6">Artículo original ↗</a></div>
+        <details><summary>Ver evidencia y límites</summary><div class="details-body"><h4>Ubicación</h4>Machine Learning based intergration.R, expresiones summary(coxph(Surv(OS.time,OS)~RS,x))$concordance[1].<h4>Evidencia</h4>R/survival: C-index del riesgo fijado0.06667. La expresión original devuelve 0.93333.<h4>Límites</h4>No demostramos inversión en cohortes publicadas. Con coeficientes positivos, ambas concordancias coinciden.</div></details></article>
+    <article class="case" id="case-MLX10" data-reach="1" data-type="metrics" data-severity="Media"
+             data-citations="911" data-status="Consulta enviada; sin evaluación científica registrada" data-status-label="Sin respuesta científica registrada" data-progress="open" data-contact="inquiry" data-year="2023"
+             data-date="2023-09-25" data-doi="10.1038/s41586-023-06651-y">
+        <header class="card-head"><a class="case-id" href="#case-MLX10" aria-label="Enlace al caso MLX10">MLX10</a>
+          <details class="priority-help"><summary class="pill">Prioridad · Media</summary>
+              <p data-help-copy>La prioridad indica qué casos revisamos primero. Encontrás el impacto científico concreto en «Qué cambiaría».</p></details></header>
+        <h3 class="paper-title" lang="en">Distinguishing features of long COVID identified through immune profiling</h3>
+        <p class="meta">Nature · 2023-09-25</p>
+        
+        <div class="finding"><p><strong>Qué afirmaba el estudio.</strong> El error cuadrático de validación resume la calidad de las predicciones logísticas.</p><p><strong>Observación.</strong> La validación logística calcula RMSE comparando etiquetas binarias con logits.</p><p><strong>Qué cambiaría.</strong> El error de validación ya no mide la distancia entre probabilidades y diagnósticos observados.</p></div>
+        <p class="primary-type">Observación principal · <a href="?type=metrics#findings">Métricas y medición</a></p>
+        <div class="card-notes"><div class="cite-line"><details class="cite-help">
+        <summary><strong>Citas.</strong> <b class="cite-number">911</b></summary><p data-help-copy>La cifra cuenta publicaciones que citaron el artículo hasta la fecha indicada. Para saber cuáles dependen del resultado observado, habría que leerlas individualmente.</p></details><span class="citation-source"><a href="https://openalex.org/W4387012832">OpenAlex</a> · <time datetime="2026-11-25">2026-11-25</time></span></div>
+        <details class="state-help"><summary><strong>Avance.</strong> Observación abierta</summary>
+        <p><strong>Sin respuesta científica registrada.</strong> Enviamos la consulta. Todavía desconocemos cómo evalúan esa observación los autores.</p>
+        <p data-help-copy><strong>Estado del contacto.</strong> Consulta enviada</p></details></div>
+        <div class="card-links"><a href="https://www.nature.com/articles/s41586-023-06651-y">Artículo original ↗</a></div>
+        <details><summary>Ver evidencia y límites</summary><div class="details-body"><h4>Ubicación</h4>puddlr.R:407–410, ScanComponentsSubset. Methods: Principal component regression.<h4>Evidencia</h4>Ejecuté ScanComponentsSubset original. RMSE reportado coincide exactamente con logits. Ejemplo sintético: elige 2 PC; probabilidades prefieren 4 PC.<h4>Límites</h4>No reanalicé pacientes originales. Faltan scripts específicos del análisis. Las asociaciones inmunológicas no quedan refutadas.</div></details></article>
+    <article class="case" id="case-L200009" data-reach="1" data-type="data-handling" data-severity="Media"
+             data-citations="446" data-status="Consulta enviada; sin evaluación científica registrada" data-status-label="Sin respuesta científica registrada" data-progress="open" data-contact="inquiry" data-year="2023"
+             data-date="2023-05-08" data-doi="10.1038/s41591-023-02332-5">
+        <header class="card-head"><a class="case-id" href="#case-L200009" aria-label="Enlace al caso L200009">L200009</a>
+          <details class="priority-help"><summary class="pill">Prioridad · Media</summary>
+              <p data-help-copy>La prioridad indica qué casos revisamos primero. Encontrás el impacto científico concreto en «Qué cambiaría».</p></details></header>
+        <h3 class="paper-title" lang="en">A deep learning algorithm to predict risk of pancreatic cancer from disease trajectories</h3>
+        <p class="meta">Nature Medicine · 2023-05-08</p>
+        
+        <div class="finding"><p><strong>Qué afirmaba el estudio.</strong> El modelo representa qué intervalos permanecen observables antes de terminar el seguimiento.</p><p><strong>Observación.</strong> get_label redondea la censura hacia el siguiente endpoint. Incluye ese endpoint no observado en y_mask. get_probs_golds también lo incluye como negativo.</p><p><strong>Qué cambiaría.</strong> Se contabilizan como libres de eventos intervalos que el paciente no completó.</p></div>
+        <p class="primary-type">Observación principal · <a href="?type=data-handling#findings">Procesamiento de datos y etiquetas</a></p>
+        <div class="card-notes"><div class="cite-line"><details class="cite-help">
+        <summary><strong>Citas.</strong> <b class="cite-number">446</b></summary><p data-help-copy>La cifra cuenta publicaciones que citaron el artículo hasta la fecha indicada. Para saber cuáles dependen del resultado observado, habría que leerlas individualmente.</p></details><span class="citation-source"><a href="https://openalex.org/W4375858857">OpenAlex</a> · <time datetime="2026-11-25">2026-11-25</time></span></div>
+        <details class="state-help"><summary><strong>Avance.</strong> Observación abierta</summary>
+        <p><strong>Sin respuesta científica registrada.</strong> Enviamos la consulta. Todavía desconocemos cómo evalúan esa observación los autores.</p>
+        <p data-help-copy><strong>Estado del contacto.</strong> Consulta enviada</p></details></div>
+        <div class="card-links"><a href="https://www.nature.com/articles/s41591-023-02332-5">Artículo original ↗</a></div>
+        <details><summary>Ver evidencia y límites</summary><div class="details-body"><h4>Ubicación</h4>datasets/disease_progression.py:get_label; datasets/filter.py:is_valid_trajectory; utils/eval.py:include_exam_and_determine_label.<h4>Evidencia</h4>Ejecutamos métodos originales mediante AST. El control tiene cinco diagnósticos y censura administrativa a1200días. Pasa el filtro oficial de seguimiento.<h4>Límites</h4>Usamos censura administrativa, nunca muerte como contraejemplo. El filtro público asegura seguimiento para36meses. No refutamos el AUROC principal36meses ni las propuestas de vigilancia12meses. No reconstruimos datos clínicos restringidos.</div></details></article>
+    <article class="case" id="case-MLX04" data-reach="1" data-type="statistical-inference" data-severity="Media"
+             data-citations="424" data-status="Consulta enviada; sin evaluación científica registrada" data-status-label="Sin respuesta científica registrada" data-progress="open" data-contact="inquiry" data-year="2024"
+             data-date="2024-01-04" data-doi="10.1038/s41591-023-02702-z">
+        <header class="card-head"><a class="case-id" href="#case-MLX04" aria-label="Enlace al caso MLX04">MLX04</a>
+          <details class="priority-help"><summary class="pill">Prioridad · Media</summary>
+              <p data-help-copy>La prioridad indica qué casos revisamos primero. Encontrás el impacto científico concreto en «Qué cambiaría».</p></details></header>
+        <h3 class="paper-title" lang="en">A deep learning system for predicting time to progression of diabetic retinopathy</h3>
+        <p class="meta">Nature Medicine · 2024-01-04</p>
+        
+        <div class="finding"><p><strong>Qué afirmaba el estudio.</strong> El modelo usa intervalos observados para estimar el tiempo hasta la progresión de retinopatía.</p><p><strong>Observación.</strong> El supuesto likelihood de intervalos multiplica S(t)F(t′). La probabilidad correcta es F(t′)−F(t).</p><p><strong>Qué cambiaría.</strong> El modelo de retinopatía aprende con probabilidades distintas de las correspondientes a los intervalos observados.</p></div>
+        <p class="primary-type">Observación principal · <a href="?type=statistical-inference#findings">Pruebas estadísticas e incertidumbre</a></p>
+        <div class="card-notes"><div class="cite-line"><details class="cite-help">
+        <summary><strong>Citas.</strong> <b class="cite-number">424</b></summary><p data-help-copy>La cifra cuenta publicaciones que citaron el artículo hasta la fecha indicada. Para saber cuáles dependen del resultado observado, habría que leerlas individualmente.</p></details><span class="citation-source"><a href="https://openalex.org/W4390588537">OpenAlex</a> · <time datetime="2026-11-25">2026-11-25</time></span></div>
+        <details class="state-help"><summary><strong>Avance.</strong> Observación abierta</summary>
+        <p><strong>Sin respuesta científica registrada.</strong> Enviamos la consulta. Todavía desconocemos cómo evalúan esa observación los autores.</p>
+        <p data-help-copy><strong>Estado del contacto.</strong> Consulta enviada</p></details></div>
+        <div class="card-links"><a href="https://www.nature.com/articles/s41591-023-02702-z">Artículo original ↗</a></div>
+        <details><summary>Ver evidencia y límites</summary><div class="details-body"><h4>Ubicación</h4>Métodos: DR progression model, Problem definition. train_eval_fund.py:184–185 y train_eval_covar.py:100–103.<h4>Evidencia</h4>Ejecuté la asignación original. Intervalo [1,1.001]: código0.2326804, probabilidad correcta0.00036770.<h4>Límites</h4>Se refuta la máxima verosimilitud declarada. Puede funcionar como pérdida sustituta; no demostramos invalidez predictiva.</div></details></article>
+    <article class="case" id="case-MLX06" data-reach="1" data-type="validation-leakage" data-severity="Media"
+             data-citations="344" data-status="Consulta enviada; sin evaluación científica registrada" data-status-label="Sin respuesta científica registrada" data-progress="open" data-contact="inquiry" data-year="2022"
+             data-date="2022-06-02" data-doi="10.1038/s41591-022-01850-y">
+        <header class="card-head"><a class="case-id" href="#case-MLX06" aria-label="Enlace al caso MLX06">MLX06</a>
+          <details class="priority-help"><summary class="pill">Prioridad · Media</summary>
+              <p data-help-copy>La prioridad indica qué casos revisamos primero. Encontrás el impacto científico concreto en «Qué cambiaría».</p></details></header>
+        <h3 class="paper-title" lang="en">Noninvasive proteomic biomarkers for alcohol-related liver disease</h3>
+        <p class="meta">Nature Medicine · 2022-06-02</p>
+        
+        <div class="finding"><p><strong>Qué afirmaba el estudio.</strong> La validación cruzada estima la capacidad diagnóstica de los biomarcadores de enfermedad hepática.</p><p><strong>Observación.</strong> La selección supervisada mRMR usa toda la cohorte. Después reutiliza esos pacientes en validación cruzada.</p><p><strong>Qué cambiaría.</strong> La validación interna de los biomarcadores hepáticos requiere repetirse con selección independiente.</p></div>
+        <p class="primary-type">Observación principal · <a href="?type=validation-leakage#findings">Filtración de datos en la evaluación</a></p>
+        <div class="card-notes"><div class="cite-line"><details class="cite-help">
+        <summary><strong>Citas.</strong> <b class="cite-number">344</b></summary><p data-help-copy>La cifra cuenta publicaciones que citaron el artículo hasta la fecha indicada. Para saber cuáles dependen del resultado observado, habría que leerlas individualmente.</p></details><span class="citation-source"><a href="https://openalex.org/W4281877108">OpenAlex</a> · <time datetime="2026-11-25">2026-11-25</time></span></div>
+        <details class="state-help"><summary><strong>Avance.</strong> Observación abierta</summary>
+        <p><strong>Sin respuesta científica registrada.</strong> Enviamos la consulta. Todavía desconocemos cómo evalúan esa observación los autores.</p>
+        <p data-help-copy><strong>Estado del contacto.</strong> Consulta enviada</p></details></div>
+        <div class="card-links"><a href="https://www.nature.com/articles/s41591-022-01850-y">Artículo original ↗</a></div>
+        <details><summary>Ver evidencia y límites</summary><div class="details-body"><h4>Ubicación</h4>ALD-ML/ALD_ML.ipynb, celdas179,186,217y267–271. Métodos: Feature selection y Model performance.<h4>Evidencia</h4>Ejecuté la función original con mRMR real. Todos los labels test intervienen antes de separar folds.<h4>Límites</h4>La simulación no cuantifica inflación clínica. La cohorte externa independiente sigue separada.</div></details></article>
+    <article class="case" id="case-MLX02" data-reach="1" data-type="validation-leakage" data-severity="Alta"
+             data-citations="310" data-status="Consulta enviada; sin evaluación científica registrada" data-status-label="Sin respuesta científica registrada" data-progress="open" data-contact="inquiry" data-year="2024"
+             data-date="2024-02-23" data-doi="10.1038/s41467-024-46043-y">
+        <header class="card-head"><a class="case-id" href="#case-MLX02" aria-label="Enlace al caso MLX02">MLX02</a>
+          <details class="priority-help"><summary class="pill">Prioridad · Alta</summary>
+              <p data-help-copy>La prioridad indica qué casos revisamos primero. Encontrás el impacto científico concreto en «Qué cambiaría».</p></details></header>
+        <h3 class="paper-title" lang="en">Metabolomic machine learning predictor for diagnosis and prognosis of gastric cancer</h3>
+        <p class="meta">Nature Communications · 2024-02-23</p>
+        
+        <div class="finding"><p><strong>Qué afirmaba el estudio.</strong> Una firma metabólica predice el cáncer gástrico en pacientes reservados para validación interna.</p><p><strong>Observación.</strong> La selección LASSO usa reparticiones de 426 participantes; el test interno de 142 pacientes proviene de esos mismos 426.</p><p><strong>Qué cambiaría.</strong> La precisión interna para clasificar cáncer gástrico requiere una cohorte independiente de la selección.</p></div>
+        <p class="primary-type">Observación principal · <a href="?type=validation-leakage#findings">Filtración de datos en la evaluación</a></p>
+        <div class="card-notes"><div class="cite-line"><details class="cite-help">
+        <summary><strong>Citas.</strong> <b class="cite-number">310</b></summary><p data-help-copy>La cifra cuenta publicaciones que citaron el artículo hasta la fecha indicada. Para saber cuáles dependen del resultado observado, habría que leerlas individualmente.</p></details><span class="citation-source"><a href="https://openalex.org/W4392125974">OpenAlex</a> · <time datetime="2026-11-25">2026-11-25</time></span></div>
+        <details class="state-help"><summary><strong>Avance.</strong> Observación abierta</summary>
+        <p><strong>Sin respuesta científica registrada.</strong> Enviamos la consulta. Todavía desconocemos cómo evalúan esa observación los autores.</p>
+        <p data-help-copy><strong>Estado del contacto.</strong> Consulta enviada</p></details></div>
+        <div class="card-links"><a href="https://www.nature.com/articles/s41467-024-46043-y">Artículo original ↗</a></div>
+        <details><summary>Ver evidencia y límites</summary><div class="details-body"><h4>Ubicación</h4>GC_diagnosis_model/run.ipynb, celdas 4–5. Código incorporado en diciembre de 2023, antes de publicación.<h4>Evidencia</h4>Recreé reparticiones de datos originales. Los 142 sujetos del test ya aparecen en entrenamiento de selección previo.<h4>Límites</h4>El test externo de 95 pacientes sigue separado; no se reentrenaron 10.000 selecciones ni se cuantificó inflación.<p><a href="https://github.com/Yangzi-Chen2023/GC_NC-Res/issues/4">Consulta técnica pública ↗</a></p></div></details></article>
+    <article class="case" id="case-L200004" data-reach="1" data-type="metrics" data-severity="Media"
+             data-citations="283" data-status="Consulta enviada; sin evaluación científica registrada" data-status-label="Sin respuesta científica registrada" data-progress="open" data-contact="inquiry" data-year="2023"
+             data-date="2023-11-29" data-doi="10.1038/s41467-023-43715-z">
+        <header class="card-head"><a class="case-id" href="#case-L200004" aria-label="Enlace al caso L200004">L200004</a>
+          <details class="priority-help"><summary class="pill">Prioridad · Media</summary>
+              <p data-help-copy>La prioridad indica qué casos revisamos primero. Encontrás el impacto científico concreto en «Qué cambiaría».</p></details></header>
+        <h3 class="paper-title" lang="en">TransformEHR: transformer-based encoder-decoder generative model to enhance prediction of disease outcomes using electronic health records</h3>
+        <p class="meta">Nature Communications · 2023-11-29</p>
+        
+        <div class="finding"><p><strong>Qué afirmaba el estudio.</strong> El AUROC publicado resume la discriminación global de las predicciones clínicas.</p><p><strong>Observación.</strong> Calcula AUROC dentro de cada minibatch y promedia, omitiendo comparaciones entre minibatches.</p><p><strong>Qué cambiaría.</strong> La capacidad de discriminar pacientes puede cambiar al reagrupar predicciones idénticas en otros lotes.</p></div>
+        <p class="primary-type">Observación principal · <a href="?type=metrics#findings">Métricas y medición</a></p>
+        <div class="card-notes"><div class="cite-line"><details class="cite-help">
+        <summary><strong>Citas.</strong> <b class="cite-number">283</b></summary><p data-help-copy>La cifra cuenta publicaciones que citaron el artículo hasta la fecha indicada. Para saber cuáles dependen del resultado observado, habría que leerlas individualmente.</p></details><span class="citation-source"><a href="https://openalex.org/W4389132345">OpenAlex</a> · <time datetime="2026-11-25">2026-11-25</time></span></div>
+        <details class="state-help"><summary><strong>Avance.</strong> Observación abierta</summary>
+        <p><strong>Sin respuesta científica registrada.</strong> Enviamos la consulta. Todavía desconocemos cómo evalúan esa observación los autores.</p>
+        <p data-help-copy><strong>Estado del contacto.</strong> Consulta enviada</p></details></div>
+        <div class="card-links"><a href="https://www.nature.com/articles/s41467-023-43715-z">Artículo original ↗</a></div>
+        <details><summary>Ver evidencia y límites</summary><div class="details-body"><h4>Ubicación</h4>trainer.py:863–947,1003–1025,1118. README prescribe evaluación con batch48. Main_bart.py activa esta ruta.<h4>Evidencia</h4>Ejecutamos auc_metrics y calc_overlap_bart originales mediante AST. Conservamos batch48, como README. El pooling original y sklearn coinciden en0,75.<h4>Límites</h4>No cuantificamos inflación en pacientes reales. Los datos clínicos están restringidos. Dataset.py no está publicado. No atribuimos valores exactos de tablas a esta ruta. La evaluación binaria posterior puede utilizar otros archivos.</div></details></article>
+    <article class="case" id="case-L200005" data-reach="1" data-type="implementation" data-severity="Media"
+             data-citations="251" data-status="Consulta enviada; sin evaluación científica registrada" data-status-label="Sin respuesta científica registrada" data-progress="open" data-contact="inquiry" data-year="2025"
+             data-date="2025-09-17" data-doi="10.1038/s41586-025-09529-3">
+        <header class="card-head"><a class="case-id" href="#case-L200005" aria-label="Enlace al caso L200005">L200005</a>
+          <details class="priority-help"><summary class="pill">Prioridad · Media</summary>
+              <p data-help-copy>La prioridad indica qué casos revisamos primero. Encontrás el impacto científico concreto en «Qué cambiaría».</p></details></header>
+        <h3 class="paper-title" lang="en">Learning the natural history of human disease with generative transformers</h3>
+        <p class="meta">Nature · 2025-09-17</p>
+        
+        <div class="finding"><p><strong>Qué afirmaba el estudio.</strong> La máscara excluye información de eventos simultáneos al predecir la evolución clínica.</p><p><strong>Observación.</strong> mask_ties elimina claves y valores simultáneos, pero conserva su embedding mediante residuales y consultas.</p><p><strong>Qué cambiaría.</strong> El enmascaramiento permite conservar información simultánea al pronosticar eventos clínicos.</p></div>
+        <p class="primary-type">Observación principal · <a href="?type=implementation#findings">Implementación de código y algoritmos</a></p>
+        <div class="card-notes"><div class="cite-line"><details class="cite-help">
+        <summary><strong>Citas.</strong> <b class="cite-number">251</b></summary><p data-help-copy>La cifra cuenta publicaciones que citaron el artículo hasta la fecha indicada. Para saber cuáles dependen del resultado observado, habría que leerlas individualmente.</p></details><span class="citation-source"><a href="https://openalex.org/W4414274945">OpenAlex</a> · <time datetime="2026-11-25">2026-11-25</time></span></div>
+        <details class="state-help"><summary><strong>Avance.</strong> Observación abierta</summary>
+        <p><strong>Sin respuesta científica registrada.</strong> Enviamos la consulta. Todavía desconocemos cómo evalúan esa observación los autores.</p>
+        <p data-help-copy><strong>Estado del contacto.</strong> Consulta enviada</p></details></div>
+        <div class="card-links"><a href="https://www.nature.com/articles/s41586-025-09529-3">Artículo original ↗</a></div>
+        <details><summary>Ver evidencia y límites</summary><div class="details-body"><h4>Ubicación</h4>Métodos: Autoatención causal y Modelo de tiempo de espera exponencial. Model.py:214–242,259–268Bloqueo, adelante:111–115.<h4>Evidencia</h4>Ejecutamos modelo original con doce capas, doce cabezas y dimensión120. El vocabulario contiene1270tokens. mask_ties=True. El gradiente hacia el embedding supuestamente excluido tiene norma1,482566.<h4>Límites</h4>Reproducción arquitectónica con pesos aleatorios fijos. No accedimos al checkpoint clínico restringido. No cuantificamos inflación observada ni refutamos validación longitudinal con separación temporal. No afirmamos fallos en particiones entre pacientes.<aside class="translation-note"><p>Los pasajes técnicos incluyen traducción asistida. Compará la notación y los valores con el texto original disponible abajo.</p><details><summary>Texto original del registro de auditoría</summary><h4>Ubicación</h4>Methods: Causal self-attention y Exponential waiting time model. Model.py:214–242,259–268. Block.forward:111–115.</details></aside></div></details></article>
+    <article class="case" id="case-L200014" data-reach="1" data-type="metrics" data-severity="Media"
+             data-citations="228" data-status="Consulta enviada; sin evaluación científica registrada" data-status-label="Sin respuesta científica registrada" data-progress="open" data-contact="inquiry" data-year="2024"
+             data-date="2024-12-11" data-doi="10.1038/s41591-024-03359-y">
+        <header class="card-head"><a class="case-id" href="#case-L200014" aria-label="Enlace al caso L200014">L200014</a>
+          <details class="priority-help"><summary class="pill">Prioridad · Media</summary>
+              <p data-help-copy>La prioridad indica qué casos revisamos primero. Encontrás el impacto científico concreto en «Qué cambiaría».</p></details></header>
+        <h3 class="paper-title" lang="en">Self-improving generative foundation model for synthetic medical image generation and clinical applications</h3>
+        <p class="meta">Nature Medicine · 2024-12-11</p>
+        
+        <div class="finding"><p><strong>Qué afirmaba el estudio.</strong> El Inception Score compara la distribución de clases en imágenes médicas generadas.</p><p><strong>Observación.</strong> calculate_IS omite ponderar cada log-ratio por su probabilidad de clase. Después promedia simultáneamente imágenes y clases. El resultado siempre es≤1.</p><p><strong>Qué cambiaría.</strong> Las cifras del código no admiten interpretación ni comparación como Inception Score convencional.</p></div>
+        <p class="primary-type">Observación principal · <a href="?type=metrics#findings">Métricas y medición</a></p>
+        <div class="card-notes"><div class="cite-line"><details class="cite-help">
+        <summary><strong>Citas.</strong> <b class="cite-number">228</b></summary><p data-help-copy>La cifra cuenta publicaciones que citaron el artículo hasta la fecha indicada. Para saber cuáles dependen del resultado observado, habría que leerlas individualmente.</p></details><span class="citation-source"><a href="https://openalex.org/W4405268957">OpenAlex</a> · <time datetime="2026-11-25">2026-11-25</time></span></div>
+        <details class="state-help"><summary><strong>Avance.</strong> Observación abierta</summary>
+        <p><strong>Sin respuesta científica registrada.</strong> Enviamos la consulta. Todavía desconocemos cómo evalúan esa observación los autores.</p>
+        <p data-help-copy><strong>Estado del contacto.</strong> Consulta enviada</p></details></div>
+        <div class="card-links"><a href="https://www.nature.com/articles/s41591-024-03359-y">Artículo original ↗</a></div>
+        <details><summary>Ver evidencia y límites</summary><div class="details-body"><h4>Ubicación</h4>metrics.py:80–91. principal:132 llama calculate_IS y etiqueta su salida Inception Score.<h4>Evidencia</h4>Jensen da promedio_i log(p_ic)≤log(promedio_i p_ic), para cada clase. El exponente publicado promedia esas diferencias no positivas. Por tanto su resultado es≤1.<h4>Límites</h4><ul><li>La reproducción usa logits sintéticos; no genera imágenes ni ejecuta Inception preentrenado.</li><li>No establecí que las cifras publicadas provengan de esta implementación.</li><li>Otra implementación podría haber producido IS válidos en los experimentos originales.</li><li>El fallo demostrado afecta al evaluador oficial publicado para reproducirlos.</li><li>No cuantifiqué cambios clínicos, imágenes afectadas ni rankings reales.</li><li>La leyenda editorial además dice menor IS; ese texto no resuelve la incompatibilidad.</li><li>FID y SSIM presentan diferencias adicionales; quedan fuera de esta clasificación principal.</li></ul><aside class="translation-note"><p>Los pasajes técnicos incluyen traducción asistida. Compará la notación y los valores con el texto original disponible abajo.</p><details><summary>Texto original del registro de auditoría</summary><h4>Ubicación</h4>metrics.py:80–91. main:132 llama calculate_IS y etiqueta su salida Inception Score.</details></aside></div></details></article></main><nav><a href="https://alandaitch.github.io/lets-fix-science/explorer/es/2.html">Siguiente</a></nav></html>
