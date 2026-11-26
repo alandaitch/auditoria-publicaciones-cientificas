@@ -38,24 +38,14 @@ Cada estado describe el seguimiento **sin reproducir correspondencia privada**.
 “Sin evaluación científica registrada” indica ausencia de respuesta sustantiva en nuestros registros.
 Las respuestas automáticas, entregas fallidas y contactos cerrados se distinguen expresamente.
 
-Al corte del **2026-11-26**, los estados son:
+Avance científico de las fichas públicas al **2026-11-26**.
+Cada ficha conserva el detalle del intercambio y su fundamento.
 
-- Autor revisará la consulta; evaluación pendiente: 1
-- Consulta enviada; sin evaluación científica registrada: 167
-- Consulta reenviada; evaluación pendiente: 1
-- Contacto cerrado; sin evaluación científica: 1
-- Derivación editorial confirmada: 5
-- Derivación editorial sugerida: 1
-- Detalles solicitados y enviados; evaluación pendiente: 1
-- Entrega sin confirmar; sin evaluación científica: 4
-- Hallazgo inicial rectificado por esta auditoría: 1
-- Inconsistencia reconocida; parche público verificado: 1
-- Limitación reconocida por equipo; derivada al editor: 1
-- Método de la auditoría explicado: 1
-- Observación reconocida; corrección anunciada: 1
-- Recepción editorial confirmada: 1
-- Respuesta automática; sin evaluación científica: 2
-- Seguimiento personal: 1
+- Observación abierta · 186
+- Aporte técnico · 1
+- Corrección anunciada · 1
+- Cambio verificado · 1
+- Auditoría rectificada · 1
 
 No verificamos ninguna corrección editorial publicada para los casos visibles al corte indicado.
 Los estados podrán actualizarse con nueva evidencia pública o respuestas posteriores.

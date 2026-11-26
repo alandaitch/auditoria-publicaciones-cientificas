@@ -22,20 +22,19 @@ A citation refers to a work. Determining reliance on a particular claim requires
 
 ## Reading the map
 
-The project has documented tests for **62** of these 1,000 papers.
-**56** count only in aggregate while their details remain private.
+The project has documented tests for **66** of these 1,000 papers.
+**60** count only in aggregate while their details remain private.
 **0** have a published independent verification through this mission.
 Each paper counts once, even when several tests concern the same work.
 The historical comparison uses the checked edition, bibliographic identifiers and original test records.
-The results map shows the strongest public discrepancy with an assessed scope.
+The map opens on public results. Switch to severity to see which conclusions a discrepancy affects.
 A minor discrepancy changes a local detail. A moderate discrepancy affects a particular result.
 A major discrepancy undermines a central conclusion. Unrated means the impact remains unquantified.
 Open a cell to see which claim was tested. Switch to progress for the review stage.
 
-- **No public check details** means only bibliographic information is available for this paper.
-- **Earlier check** identifies the specific published claim we previously examined.
+- **Only bibliography is public** means the map can show this paper's bibliographic record.
 - **Test registered** identifies a public test plan. Inconclusive tests remain open.
-- **Public finding** links to an eligible observation from the existing audit.
+- **Public check** links to an earlier documented check or a released finding.
 - **Independently checked** requires a second contributor, named models or human-only attribution, and public evidence.
 - A verified claim only settles the stated test. Coverage of other claims requires further work.
 
@@ -49,8 +48,8 @@ La cohorte suma **32.252.668** enlaces bibliográficos.
 El último trabajo tenía **15.782** citas.
 Una cita puede mencionar otro aspecto del trabajo. Determinar qué conclusiones dependen del hallazgo exige leerla.
 Una segunda persona debe reproducir la prueba para que cuente como completada.
-Hay **62** artículos con pruebas documentadas dentro de estos mil.
-**56** entran sólo en el total porque sus expedientes siguen siendo privados.
+Hay **66** artículos con pruebas documentadas dentro de estos mil.
+**60** entran sólo en el total porque sus expedientes siguen siendo privados.
 Hay **0** verificaciones independientes públicas dentro de la misión.
 El recuento considera la edición examinada y cuenta cada artículo una sola vez.
 El mapa distingue gravedad leve, moderada o grave según el alcance demostrado.

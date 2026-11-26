@@ -2,16 +2,17 @@
   "date": "2026-11-26",
   "source_url": "https://api.openalex.org/works?filter=to_publication_date%3A2025-12-31%2Ccited_by_count%3A%3E13622&sort=cited_by_count%3Adesc&per_page=100",
   "progress": {
-    "checked": 62,
-    "prior_checked": 62,
-    "private_only": 56,
+    "checked": 66,
+    "prior_checked": 66,
+    "private_only": 60,
     "independently_verified": 0
   },
   "citation_total": 32252668,
   "private_assessment_counts": {
-    "moderate": 1,
-    "as_reported": 2,
-    "unrated": 1
+    "moderate": 2,
+    "as_reported": 4,
+    "unrated": 1,
+    "minor": 1
   },
   "papers": [
     {
