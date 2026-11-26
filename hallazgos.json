@@ -1,6 +1,6 @@
 {
-  "snapshot_utc": "2026-11-26T00:01:18.950752+00:00",
-  "exported_utc": "2026-11-26T00:01:19.533085+00:00",
+  "snapshot_utc": "2026-11-26T00:06:30.543691+00:00",
+  "exported_utc": "2026-11-26T00:06:31.103781+00:00",
   "count": 190,
   "total_audited": 320,
   "pending_initial_sends": 0,
@@ -2178,7 +2178,7 @@
         "Una proyección de un encoder puede superar un baseline con otra capacidad. Eso no demuestra fusión multiencoder.",
         "La observación es específica del brazo con tres encoders. El uso bidireccional de dos encoders requiere análisis separado."
       ],
-      "response_status": "Consulta enviada; sin evaluación científica registrada",
+      "response_status": "Derivación editorial confirmada",
       "public_journal_correction": "No verificada"
     },
     {
@@ -2349,7 +2349,7 @@
         "La superposición por paciente en BRCA es evidencia secundaria del archivo distribuido.",
         "No refutamos los resultados de clasificación ni la representación preentrenada."
       ],
-      "response_status": "Consulta enviada; sin evaluación científica registrada",
+      "response_status": "Derivación editorial confirmada",
       "public_journal_correction": "No verificada"
     },
     {
@@ -2393,7 +2393,7 @@
       "location": "MethodsAmpute; SupplementaryMethods2.3; Amputer._mnar_mask/_mem_mask, versión0.3.1; Fig4d–f yclassification.pyarchivado.",
       "evidence": "La máscara satisface R=g(n,K,U), con aleatoriedad y pesos exógenos. Los valores observados, ocultos y desenlaces no intervienen. Por tanto, P(R=r|X=x,y)=P(R=r). La dependencia entre indicadores sigue siendo compatible con MCAR. Ejecutamos los generadores originales sobre cien filas y cuatro modalidades. Reemplazar todas las mediciones conserva exactamente ambas máscaras.",
       "limits": "No demuestra cambio de rankings oimputaciones. Pesos elegidosexternamentesegúnvalores podrían alterarindependencia; noocurre enlosdefectos auditados. El paquetetodavía genera patronesestructurados válidos, perono dependencia de faltantes respecto dedatos.",
-      "response_status": "Consulta enviada; sin evaluación científica registrada",
+      "response_status": "Método de la auditoría explicado",
       "public_journal_correction": "No verificada"
     },
     {
@@ -4006,7 +4006,7 @@
         "La cabeza de clasificación conserva gradientes y queda fuera del hallazgo.",
         "Otros defectos posibles no forman parte del conteo."
       ],
-      "response_status": "Consulta enviada; sin evaluación científica registrada",
+      "response_status": "Recepción editorial confirmada",
       "public_journal_correction": "No verificada"
     },
     {
@@ -4127,7 +4127,7 @@
         "La versión final promedia mediciones del domicilio y clínica. Conserva dependencia del domicilio futuro.",
         "No cuestionamos los rezagos meteorológicos por sí mismos."
       ],
-      "response_status": "Consulta enviada; sin evaluación científica registrada",
+      "response_status": "Derivación editorial sugerida",
       "public_journal_correction": "No verificada"
     },
     {
@@ -5983,7 +5983,7 @@
         "No inferimos efectos clínicos adversos ni decisiones terapéuticas erróneas concretas.",
         "Las variantes sin un barcode completo requieren un tratamiento de dependencia más amplio."
       ],
-      "response_status": "Consulta enviada; sin evaluación científica registrada",
+      "response_status": "Seguimiento personal",
       "public_journal_correction": "No verificada"
     },
     {
@@ -6425,7 +6425,7 @@
         "Los clasificadores para OS6, OS24 y DCR tampoco quedan refutados.",
         "El artículo no demuestra mejora multimodal en todas las evaluaciones externas."
       ],
-      "response_status": "Consulta enviada; sin evaluación científica registrada",
+      "response_status": "Autor revisará la consulta; evaluación pendiente",
       "public_journal_correction": "No verificada"
     },
     {

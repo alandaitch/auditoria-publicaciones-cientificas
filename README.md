@@ -33,16 +33,22 @@ Las respuestas automáticas, entregas fallidas y contactos cerrados se distingue
 
 Al corte del **2026-11-26**, los estados son:
 
-- Consulta enviada; sin evaluación científica registrada: 177
+- Autor revisará la consulta; evaluación pendiente: 1
+- Consulta enviada; sin evaluación científica registrada: 170
 - Consulta reenviada; evaluación pendiente: 1
 - Contacto cerrado; sin evaluación científica: 1
+- Derivación editorial confirmada: 2
+- Derivación editorial sugerida: 1
 - Detalles solicitados y enviados; evaluación pendiente: 1
 - Entrega sin confirmar; sin evaluación científica: 4
 - Hallazgo inicial rectificado por esta auditoría: 1
 - Inconsistencia reconocida; parche público verificado: 1
 - Limitación reconocida por equipo; derivada al editor: 1
+- Método de la auditoría explicado: 1
 - Observación reconocida; corrección anunciada: 1
+- Recepción editorial confirmada: 1
 - Respuesta automática; sin evaluación científica: 2
+- Seguimiento personal: 1
 
 No verificamos ninguna corrección editorial publicada para los casos visibles al corte indicado.
 Los estados podrán actualizarse con nueva evidencia pública o respuestas posteriores.
