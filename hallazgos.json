@@ -1,6 +1,6 @@
 {
-  "snapshot_utc": "2026-11-26T23:32:07.340878+00:00",
-  "exported_utc": "2026-11-26T23:32:08.051540+00:00",
+  "snapshot_utc": "2026-11-26T23:37:12.828489+00:00",
+  "exported_utc": "2026-11-26T23:37:13.402633+00:00",
   "count": 190,
   "total_audited": 320,
   "pending_initial_sends": 0,
@@ -5508,7 +5508,7 @@
       "location": "Tablas 3 y 4; Resultados 3.2 y 3.3. códigos/2 reproducibility.R, líneas1097–1118; BootMyModsFun líneas808–969.",
       "evidence": "Cargamos modelos y expresión oficiales; calculamos riesgos sin reentrenar. Ejecutamos test.fun original y reconstruimos 1000 remuestreos con semilla123.",
       "limits": "El ranking puntual permanece favorable a Vax(grp). No demostramos igualdad poblacional ni ausencia de beneficio. Los contrastes alternativos son aproximados. No cuestionamos el t-test corregido de validación interna.",
-      "response_status": "Consulta enviada; sin evaluación científica registrada",
+      "response_status": "Derivación editorial confirmada",
       "public_journal_correction": "No verificada",
       "original_wording": {
         "location": "Tablas 3 y 4; Results 3.2 y 3.3. codes/2 reproducibility.R, líneas1097–1118; BootMyModsFun líneas808–969."
