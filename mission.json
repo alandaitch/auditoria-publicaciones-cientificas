@@ -27,10 +27,10 @@
   },
   "citation_total": 192125824,
   "private_assessment_counts": {
-    "unrated": 40,
+    "unrated": 35,
+    "moderate": 7,
     "as_reported": 3,
     "inconclusive": 1,
-    "moderate": 2,
     "minor": 1
   },
   "papers": [
