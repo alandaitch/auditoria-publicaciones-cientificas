@@ -2,30 +2,27 @@
   "map_activity": {
     "counts": {
       "waiting": 2,
-      "review": 1,
-      "checked": 65,
-      "open": 49932
+      "review": 0,
+      "checked": 68,
+      "open": 49930
     },
-    "review_reasons": {
-      "discrepancy": 1
-    },
+    "review_reasons": {},
     "observations_by_stage": {
-      "checked": 47,
-      "waiting": 2,
-      "review": 1
+      "checked": 50,
+      "waiting": 2
     },
     "waiting_severity": {
       "unrated": 2
     },
-    "documented_observations": 49,
-    "unverified_observations": 1
+    "documented_observations": 52,
+    "unverified_observations": 0
   },
   "date": "2026-11-27",
   "source_url": "https://api.openalex.org/works?filter=to_publication_date%3A2025-12-31%2Ctype%3Aarticle%7Creview%2Cis_retracted%3Afalse%2Cprimary_location.source.type%3Ajournal%7Cconference&sort=cited_by_count%3Adesc",
   "progress": {
-    "checked": 67,
+    "checked": 70,
     "prior_checked": 55,
-    "private_only": 60,
+    "private_only": 63,
     "independently_verified": 0
   },
   "citation_total": 192125824,
