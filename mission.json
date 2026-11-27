@@ -6,6 +6,17 @@
       "checked": 68,
       "open": 49931
     },
+    "result_counts": {
+      "matched": 17,
+      "observation": 50,
+      "waiting": 1,
+      "open": 49932
+    },
+    "open_reasons": {
+      "unresolved": 5,
+      "to_check": 49927
+    },
+    "withheld_lists": [],
     "review_reasons": {},
     "observations_by_stage": {
       "checked": 50,
@@ -184,7 +195,8 @@
       "assessment": {
         "outcome": "as_reported"
       },
-      "public_map_stage": "checked"
+      "public_map_stage": "checked",
+      "public_map_result": "matched"
     },
     {
       "id": "W2083222334",
@@ -804,7 +816,8 @@
       "assessment": {
         "outcome": "as_reported"
       },
-      "public_map_stage": "checked"
+      "public_map_stage": "checked",
+      "public_map_result": "matched"
     },
     {
       "id": "W2100379340",
@@ -836,7 +849,8 @@
       "assessment": {
         "outcome": "as_reported"
       },
-      "public_map_stage": "checked"
+      "public_map_stage": "checked",
+      "public_map_result": "matched"
     },
     {
       "id": "W2092157292",
@@ -2524,7 +2538,8 @@
       "assessment": {
         "outcome": "as_reported"
       },
-      "public_map_stage": "checked"
+      "public_map_stage": "checked",
+      "public_map_result": "matched"
     },
     {
       "id": "W2077791698",
@@ -2676,7 +2691,8 @@
       "assessment": {
         "outcome": "as_reported"
       },
-      "public_map_stage": "checked"
+      "public_map_stage": "checked",
+      "public_map_result": "matched"
     },
     {
       "id": "W2067404301",
@@ -4376,7 +4392,8 @@
       "assessment": {
         "outcome": "as_reported"
       },
-      "public_map_stage": "checked"
+      "public_map_stage": "checked",
+      "public_map_result": "matched"
     },
     {
       "id": "W2165010366",
