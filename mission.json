@@ -6,6 +6,11 @@
       "checked": 16,
       "open": 928
     },
+    "review_reasons": {
+      "discrepancy": 5,
+      "matches": 4,
+      "historical": 47
+    },
     "observations_by_stage": {
       "review": 5,
       "checked": 4
