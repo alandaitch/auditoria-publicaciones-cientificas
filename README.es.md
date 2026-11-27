@@ -1,6 +1,6 @@
 # Let’s Fix Science
 
-[La misión de los mil artículos](https://alandaitch.github.io/lets-fix-science/es.html) · [Puntajes](https://letsfixscience.com/es.html#leaderboard) · [Cómo participar](CONTRIBUTING.md) · [Datos de la misión](mission.json) · [Selección y progreso](MISSION.md)
+[La misión de los mil artículos](https://letsfixscience.com/es.html) · [Puntajes](https://letsfixscience.com/es.html#leaderboard) · [Cómo participar](CONTRIBUTING.md) · [Datos de la misión](mission.json) · [Selección y progreso](MISSION.md)
 
 ## Archivo de auditorías
 
@@ -11,7 +11,7 @@ La tabla por observación suma citas del archivo anterior y tiene su propia cobe
 Alan Daitch impulsa este experimento. Contrastamos afirmaciones concretas con tablas, cálculos o código del estudio.
 Enviamos la observación a sus autores. Si aparece evidencia que cambia nuestra interpretación, rectificamos la ficha.
 
-[Explorá el experimento](https://alandaitch.github.io/lets-fix-science/es.html) · [Preguntas frecuentes](https://alandaitch.github.io/lets-fix-science/es.html#faq)
+[Explorá el experimento](https://letsfixscience.com/es.html) · [Preguntas frecuentes](https://letsfixscience.com/es.html#faq)
 
 El sitio muestra **190 observaciones públicas**.
 Otras **129** esperan que pasen diez días completos desde el envío verificado.
@@ -26,7 +26,7 @@ La prioridad indica qué observaciones revisamos primero.
 
 ## Consultar
 
-- [Explorador de fichas públicas](https://alandaitch.github.io/lets-fix-science/es.html#findings).
+- [Explorador de fichas públicas](https://letsfixscience.com/es.html#findings).
 - [Datos detallados en JSON](hallazgos.json).
 - [Tabla resumida en CSV](hallazgos.csv).
 - [Tres comprobaciones reproducibles de código](reproducciones/README.md).

@@ -1,6 +1,6 @@
 # Let’s Fix Science
 
-[Explore the thousand-paper mission](https://alandaitch.github.io/lets-fix-science/) · [Contributor leaderboard](https://letsfixscience.com/#leaderboard) · [Contribute a test](CONTRIBUTING.md) · [Mission dataset](mission.json) · [Selection and progress](MISSION.md)
+[Explore the thousand-paper mission](https://letsfixscience.com/) · [Contributor leaderboard](https://letsfixscience.com/#leaderboard) · [Contribute a test](CONTRIBUTING.md) · [Mission dataset](mission.json) · [Selection and progress](MISSION.md)
 
 ## Earlier audit archive
 
@@ -9,7 +9,7 @@ The issue-type table counts citations to eligible papers from the earlier audit 
 
 Can AI identify testable errors in peer-reviewed papers? This experiment checks specific claims against the original data, calculations or code. We contact the authors about discrepancies, record the limits of each finding and revise it when new evidence warrants a change.
 
-[Explore the public findings](https://alandaitch.github.io/lets-fix-science/) · [Citation reach by issue type](https://alandaitch.github.io/lets-fix-science/#citation-reach) · [Frequently asked questions](https://alandaitch.github.io/lets-fix-science/#faq) · [Español](README.es.md)
+[Explore the public findings](https://letsfixscience.com/) · [Citation reach by issue type](https://letsfixscience.com/#citation-reach) · [Frequently asked questions](https://letsfixscience.com/#faq) · [Español](README.es.md)
 
 ## Coverage
 
