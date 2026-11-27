@@ -19,7 +19,7 @@ Bibliographic classifications and citation coverage depend on OpenAlex.
 
 ## Assignment order
 
-A deterministic screen reads titles and abstracts. OpenAlex topics organize disciplinary coverage.
+Rules screen the available abstracts for testable claims. OpenAlex fields organize disciplinary coverage.
 It looks for numerical comparisons, pooled estimates, mathematical guarantees and testable coverage claims.
 The screen favors consequential outcomes and a concrete test with published evidence.
 Reported data or code availability is a clue. Reviewers must verify availability themselves.
