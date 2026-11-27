@@ -2,9 +2,9 @@
   "map_activity": {
     "counts": {
       "waiting": 1,
-      "review": 0,
+      "review": 8,
       "checked": 68,
-      "open": 49931
+      "open": 49923
     },
     "result_counts": {
       "matched": 17,
@@ -14,19 +14,24 @@
     },
     "open_reasons": {
       "unresolved": 5,
-      "to_check": 49927
+      "to_check": 49919,
+      "verification": 8
     },
     "withheld_lists": [],
-    "review_reasons": {},
+    "review_reasons": {
+      "matches": 7,
+      "discrepancy": 1
+    },
     "observations_by_stage": {
       "checked": 50,
+      "review": 1,
       "waiting": 1
     },
     "waiting_severity": {
       "unrated": 1
     },
     "documented_observations": 51,
-    "unverified_observations": 0
+    "unverified_observations": 1
   },
   "date": "2026-11-27",
   "source_url": "https://api.openalex.org/works?filter=to_publication_date%3A2025-12-31%2Ctype%3Aarticle%7Creview%2Cis_retracted%3Afalse%2Cprimary_location.source.type%3Ajournal%7Cconference&sort=cited_by_count%3Adesc",

@@ -1,11 +1,11 @@
 {
-  "snapshot_utc": "2026-11-26T23:43:17.436537+00:00",
-  "exported_utc": "2026-11-27T17:30:56.647142+00:00",
-  "count": 190,
+  "snapshot_utc": "2026-11-27T23:26:02.673844+00:00",
+  "exported_utc": "2026-11-27T23:26:04.005947+00:00",
+  "count": 191,
   "total_audited": 320,
   "pending_initial_sends": 0,
   "uncertain_initial_sends": 1,
-  "sent_awaiting_ten_days": 129,
+  "sent_awaiting_ten_days": 128,
   "method_note": "Independent AI-assisted audit. Observations are bounded and not editorial rulings.",
   "cases": [
     {
@@ -9679,6 +9679,49 @@
       "included_in_citation_reach": true
     },
     {
+      "id": "B200037",
+      "title": "Computable longitudinal patient journeys from structured and unstructured EHR data",
+      "error_type": "statistical-inference",
+      "journal": "Nature Medicine",
+      "publication_date": "2026-09-10",
+      "doi": "10.1038/s41591-026-04695-x",
+      "source_url": "https://www.nature.com/articles/s41591-026-04695-x",
+      "area": "Sin clasificar",
+      "severity": "Media",
+      "study_claim": "Las bandas estiman la incertidumbre de los cambios clínicos respecto del valor basal.",
+      "observation": "Se resta una predicción basal estimada a medias y límites, conservando la varianza del nivel. Falta propagar incertidumbre y covarianza del ancla estimada.",
+      "consequence": "La precisión del cambio individual exige incluir también el error de la referencia estimada.",
+      "citation_count": 3,
+      "citation_source": "OpenAlex",
+      "citation_url": "https://openalex.org/W7212178992",
+      "citations_as_of": "2026-11-25",
+      "location": "Figure3b; step4_predictive_plots_a1c.py96–105 y423–426; README de correspondencia editorial.",
+      "evidence": [
+        "El helper calcula varianza de nivel X_t V X_t transpuesta.",
+        "Después se resta la predicción basal estimada a media y ambos límites.",
+        "El cambio poblacional requiere (X_t−X_0)V(X_t−X_0) transpuesta.",
+        "En el día0 el contraste es idénticamente cero, pero la banda trasladada no lo es.",
+        "Control GEE regular:500cohortes nulas,500pacientes cada una,3d.f. de spline.",
+        "El cálculo original excluye cero87/500 veces; el contraste correcto23/500.",
+        "Álgebra independiente predice18,17% en ese control; no representa cobertura clínica.",
+        "La crítica pública previa trata filas añadidas antes del ajuste, no esta transformación posterior."
+      ],
+      "limits": [
+        "Datos clínicos privados: no reconstruimos sus intervalos corregidos ni sus P.",
+        "El 17.4% describe el control especificado, no una tasa universal ni clínica.",
+        "Los estimadores puntuales, modelos Cox y comparaciones forest quedan fuera del hallazgo.",
+        "La precisión de extracción de texto y su validación independiente permanecen sin refutar.",
+        "No demostramos desaparición de las asociaciones clínicas publicadas.",
+        "El empaquetador final de tablas no está publicado; no atribuimos cada intervalo de Table 3.",
+        "El control previo de un único basal queda conservado, pero no constituye el resultado principal."
+      ],
+      "response_status": "Consulta enviada; sin evaluación científica registrada",
+      "public_journal_correction": "No verificada",
+      "original_wording": {},
+      "error_type_label": "Pruebas estadísticas e incertidumbre",
+      "included_in_citation_reach": true
+    },
+    {
       "id": "XM10",
       "title": "Stereographic Spherical Sliced Wasserstein Distances",
       "error_type": "theory",
@@ -9752,9 +9795,9 @@
         "citations": 528
       },
       "statistical-inference": {
-        "papers": 21,
-        "with_count": 21,
-        "citations": 752
+        "papers": 22,
+        "with_count": 22,
+        "citations": 755
       },
       "data-handling": {
         "papers": 8,
@@ -9777,10 +9820,10 @@
         "citations": 504
       }
     },
-    "included_papers": 189,
+    "included_papers": 190,
     "excluded_rectified_papers": 1,
-    "papers_with_count": 180,
-    "citations": 9996,
+    "papers_with_count": 181,
+    "citations": 9999,
     "sources": [
       "OpenAIRE",
       "OpenAlex",
