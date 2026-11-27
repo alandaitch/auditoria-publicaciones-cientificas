@@ -1,60 +1,64 @@
-# The thousand-paper mission
+# How Let’s Fix Science assigns papers
 
-Let’s Fix Science invites anyone to check one consequential claim in a highly cited paper.
-A second contributor independently reconstructs the test and records a checkable result.
-Each paper counts once toward the 1,000-paper goal, whichever conclusion the evidence supports.
+We select consequential, testable claims among 50,000 highly cited scientific papers.
+The first question is practical. What published conclusion could an independent check change?
+A reproducible match is as valuable as a discrepancy. Both can settle the question.
 
-## How we selected the papers
+## The population
 
-We froze the [OpenAlex](https://openalex.org) ranking on 2026-11-26 UTC.
-Papers published through 2025 qualify, across all disciplines.
-The list includes journal papers, reviews and published conference contributions.
-Ranking uses the indexed citation links to each retained record.
-We checked duplicate editions, publication venues and incorrectly classified records.
-We retained one bibliographic record for each work and used its own citation count.
-Equal citation counts are ordered by numeric OpenAlex ID.
+The frozen [OpenAlex query](https://api.openalex.org/works?filter=to_publication_date%3A2025-12-31%2Ctype%3Aarticle%7Creview%2Cis_retracted%3Afalse%2Cprimary_location.source.type%3Ajournal%7Cconference&sort=cited_by_count%3Adesc) uses the 2026-11-27 UTC snapshot.
+We selected articles and reviews published through 2025 from journals or conference sources.
+OpenAlex records marked retracted at collection were excluded.
+We ranked distinct OpenAlex work IDs by citations, breaking ties by numeric ID.
+Some editions may have separate IDs. Duplicate DOIs are deferred for new assignments.
+The cutoff was **1,767 citations**. The group received **192,125,824 citations** altogether.
+A citation can reference any claim in a paper.
+Bibliographic classifications and citation coverage depend on OpenAlex.
 
-The roster contains **1,000 works**, with **32,252,668 citation links**.
-The final included work received **15,782 citations** at the snapshot.
-Counts reflect OpenAlex coverage, record linkage and our documented selection criteria.
-A citation refers to a work. Determining reliance on a particular claim requires reading it.
-[Contributor leaderboard](https://letsfixscience.com/#leaderboard) · [Download public credits](contributor-ledger.json)
+[All 50,000 records, in citation order](bibliography.csv) · [Public progress](mission.json)
 
-[Download the dated list and current statuses](mission.json) · [Inspect the source query](https://api.openalex.org/works?filter=to_publication_date%3A2025-12-31%2Ccited_by_count%3A%3E13622&sort=cited_by_count%3Adesc&per_page=100).
+## Assignment order
 
-## Reading the map
+A deterministic screen reads titles and abstracts. OpenAlex topics organize disciplinary coverage.
+It looks for numerical comparisons, pooled estimates, mathematical guarantees and testable coverage claims.
+The screen favors consequential outcomes and a concrete test with published evidence.
+Reported data or code availability is a clue. Reviewers must verify availability themselves.
+It assigns **828** priority and **4,485** possible opportunities.
+**26,278** have few detectable signals. **18,409** lack enough usable text.
+The first version recognizes English-language patterns. Short or missing abstracts require another source.
+These categories guide reading. No category estimates the probability that a paper is wrong.
+Submissions are private. Volunteers receive the assigned paper without the internal score.
 
-The project has documented tests for **66** of these 1,000 papers.
-**60** count only in aggregate while their details remain private.
-**0** have a published independent verification through this mission.
-Each paper counts once, even when several tests concern the same work.
-The historical comparison uses the checked edition, bibliographic identifiers and original test records.
-Each dot counts one paper. Positions are scattered and independent of citation rank. Outlined dots mark observations.
-The observation total distinguishes documented observations from reports awaiting verification. An author must have been contacted before the paper can count as waiting for a reply.
-Select a status to see its meaning and any public paper records. The directory retains citation order.
+While all categories have eligible papers, ten consecutive positions include five priority opportunities,
+three possible opportunities, one low-signal paper and one paper with insufficient information.
+Domains and fields alternate within categories. Selected fields, prior checks and active reservations affect actual assignments.
+As categories empty, the service continues with the remaining papers.
+Two Terra agents independently evaluated 30 summaries without seeing scores or citation counts.
+They agreed on 28 of 30 reading priorities. This measured agreement about auditability.
+Confirmed consequential findings per review hour can assess the strategy after actual checks.
 
-- **Only bibliography is public** means the map can show this paper's bibliographic record.
-- **Test registered** identifies a public test plan. Inconclusive tests remain open.
-- **Public check** links to an earlier documented check or a released finding.
-- **Independently checked** requires a second contributor, named models or human-only attribution, and public evidence.
-- A verified claim only settles the stated test. Coverage of other claims requires further work.
+## Reading progress
+
+We have documented checks on **56** papers in this population.
+**49** contribute in aggregate only.
+**0** have a published independent verification.
+Each paper counts once, irrespective of the number or outcome of tests.
+Waiting for the author requires a verified notice and a thread check.
+Unreleased results only contribute to aggregate counts. Private correspondence stays private.
+Historical records and existing reservations remain available through the original workflow.
+**899** papers from the original thousand belong to this population.
+Older work outside the new cutoff remains archived and counts separately.
 
 ## En español
 
-Congelamos las citas de OpenAlex el 2026-11-26 UTC.
-Incluimos publicaciones hasta 2025 y consideramos artículos de revistas, revisiones y actas de congresos.
-Resolvimos duplicados y clasificaciones incorrectas. Cada trabajo conserva las citas de un solo registro.
-Ordenamos por citas globales. Desempatamos con el identificador numérico de OpenAlex.
-La cohorte suma **32.252.668** enlaces bibliográficos.
-El último trabajo tenía **15.782** citas.
-Una cita puede mencionar otro aspecto del trabajo. Determinar qué conclusiones dependen del hallazgo exige leerla.
-Una segunda persona debe reproducir la prueba para que cuente como completada.
-Hay **66** artículos con pruebas documentadas dentro de estos mil.
-**60** entran sólo en el total porque sus expedientes siguen siendo privados.
-Hay **0** verificaciones independientes públicas dentro de la misión.
-El recuento considera la edición examinada y cuenta cada artículo una sola vez.
-Cada punto representa un artículo. Los puntos con contorno indican observaciones. El directorio conserva el orden de citas.
-El mapa distingue observaciones documentadas e informes pendientes de verificación.
-La espera del autor requiere un envío comprobado y un hilo sin respuesta registrada.
+Elegimos qué afirmaciones revisar entre 50.000 trabajos muy citados.
+Buscamos conclusiones importantes que puedan contrastarse con datos, comparaciones o demostraciones.
+La selección usa artículos y revisiones publicados hasta 2025 según OpenAlex.
+El corte fue de **1.767 citas**. La población suma **192.125.824 citas**.
+El orden de lectura combina oportunidades prioritarias, posibles y artículos con poca información.
+También reservamos turnos para trabajos que pueden escapar al filtro automático.
+Los resúmenes breves, ausentes o en otros idiomas requieren consultar otra fuente.
+Cada aporte se verifica antes de publicar cualquier resultado identificable.
+Las citas indican cuánto se cita un trabajo. Cada prueba examina una afirmación concreta.
 
 [Contribute / Participá](CONTRIBUTING.md)

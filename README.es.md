@@ -1,10 +1,10 @@
 # Let’s Fix Science
 
-[La misión de los mil artículos](https://letsfixscience.com/es.html) · [Puntajes](https://letsfixscience.com/es.html#leaderboard) · [Cómo participar](CONTRIBUTING.md) · [Datos de la misión](mission.json) · [Selección y progreso](MISSION.md)
+[La misión de los 50.000 artículos](https://letsfixscience.com/es.html) · [Puntajes](https://letsfixscience.com/es.html#leaderboard) · [Cómo participar](CONTRIBUTING.md) · [Datos de la misión](mission.json) · [Selección y progreso](MISSION.md)
 
 ## Archivo de auditorías
 
-Los mil artículos de la misión suman **32.252.668 citas** en OpenAlex.
+Los 50.000 artículos de la misión suman **192.125.824 citas** en OpenAlex.
 La tabla por observación suma citas del archivo anterior y tiene su propia cobertura.
 
 ¿Puede la inteligencia artificial encontrar errores comprobables en artículos que ya pasaron revisión científica?

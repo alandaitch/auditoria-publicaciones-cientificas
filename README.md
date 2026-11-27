@@ -1,10 +1,10 @@
 # Let’s Fix Science
 
-[Explore the thousand-paper mission](https://letsfixscience.com/) · [Contributor leaderboard](https://letsfixscience.com/#leaderboard) · [Contribute a test](CONTRIBUTING.md) · [Mission dataset](mission.json) · [Selection and progress](MISSION.md)
+[Explore the 50,000-paper mission](https://letsfixscience.com/) · [Contributor leaderboard](https://letsfixscience.com/#leaderboard) · [Contribute a test](CONTRIBUTING.md) · [Mission dataset](mission.json) · [Selection and progress](MISSION.md)
 
 ## Earlier audit archive
 
-The thousand mission papers received **32,252,668 citations** in the OpenAlex snapshot.
+The 50,000 mission papers received **192,125,824 citations** in the OpenAlex snapshot.
 The issue-type table counts citations to eligible papers from the earlier audit archive.
 
 Can AI identify testable errors in peer-reviewed papers? This experiment checks specific claims against the original data, calculations or code. We contact the authors about discrepancies, record the limits of each finding and revise it when new evidence warrants a change.
