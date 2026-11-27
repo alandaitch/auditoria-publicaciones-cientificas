@@ -1,11 +1,11 @@
 {
-  "snapshot_utc": "2026-11-27T23:37:23.285547+00:00",
-  "exported_utc": "2026-11-27T23:37:23.954812+00:00",
-  "count": 193,
+  "snapshot_utc": "2026-11-27T23:42:36.651511+00:00",
+  "exported_utc": "2026-11-27T23:42:37.198338+00:00",
+  "count": 194,
   "total_audited": 320,
   "pending_initial_sends": 0,
   "uncertain_initial_sends": 1,
-  "sent_awaiting_ten_days": 126,
+  "sent_awaiting_ten_days": 125,
   "method_note": "Independent AI-assisted audit. Observations are bounded and not editorial rulings.",
   "cases": [
     {
@@ -12007,6 +12007,68 @@
       "included_in_citation_reach": true
     },
     {
+      "id": "R200028",
+      "title": "Genetics, primary care records and lifestyle factors for short-term dynamic risk prediction of colorectal cancer: prospective study of asymptomatic and symptomatic UK Biobank participants",
+      "error_type": "metrics",
+      "journal": "BMJ Oncology",
+      "publication_date": "2025-02-18",
+      "doi": "10.1136/bmjonc-2024-000336",
+      "source_url": "https://bmjoncology.bmj.com/content/4/1/e000336",
+      "area": "Unclassified",
+      "severity": "Medium",
+      "study_claim": "Shapley contributions apportion dynamic risk across information sources.",
+      "observation": "The empty coalition is assigned size one, producing weight 1/30 rather than 1/6. Normalizing percentages does not restore the correct weights.",
+      "consequence": "The shares assigned to genetics, records and habits can change with the correct weights.",
+      "citation_count": 3,
+      "citation_source": "OpenAlex",
+      "citation_url": "https://openalex.org/W4407695244",
+      "citations_as_of": "2026-11-25",
+      "location": "hpc_shapley_200bootsmp.r: N_subset_S y weight; generador get_powerset; Methods, Figuras1b/2b.",
+      "evidence": [
+        "R original genera64 coaliciones, incluyendo vacío.",
+        "Vacuum cardinality 1 produces pse1 / 30 instead of 1 / 6.",
+        "Standard additive monitoring retains proportions: checked and closed defence.",
+        "Inverting nonadditive play 35.06 / 32.47 / 32.47 → 31.88 / 34.06 / 34.06.",
+        "Eight synthetic cox inverten34.57 / 33.53 / 31.90 → 30.12 / 35.61 / 34.28.",
+        "Independent review by 720orders confirms correct efficiency and normalisation error."
+      ],
+      "limits": [
+        "We did not rebuild published proportions and did not correct UKBiobank's ranking.",
+        "Synthetic Cox Control: 4,000training / 8,000evaluation, eight models with no bidirectional selection.",
+        "No selection constitutes stated editorial sensitivities.",
+        "We run generators and original expressions by parting / eval and complete dplyr aggregator.",
+        "Adapter str_count Just count low indents.",
+        "Additive monitoring retains standard percentages.",
+        "We have no clinical impairment."
+      ],
+      "response_status": "No scientific response recorded",
+      "public_journal_correction": "Unverified",
+      "original_wording": {
+        "study_claim": "Las contribuciones Shapley descomponen el riesgo dinámico entre fuentes de información.",
+        "observation": "Coalición vacía recibe cardinalidad1: peso Shapley1/30 frente a1/6. Normalizar porcentajes no repara el caso general.",
+        "consequence": "Los porcentajes atribuidos a genética, registros y hábitos pueden cambiar al aplicar los pesos correctos.",
+        "evidence": [
+          "R original genera64 coaliciones, incluyendo vacío.",
+          "Cardinalidad vacía1 produce peso1/30 en lugar de1/6.",
+          "Control aditivo normalizado conserva proporciones: defensa comprobada y acotada.",
+          "Juego noaditivo acotado invierte35.06/32.47/32.47→31.88/34.06/34.06.",
+          "Ocho ajustes Cox sintéticos invierten34.57/33.53/31.90→30.12/35.61/34.28.",
+          "Revisión independiente por720órdenes confirma eficiencia correcta y error de normalización."
+        ],
+        "limits": [
+          "No reconstruimos proporciones publicadas ni corregimos el ranking de UKBiobank.",
+          "Control Cox sintético:4.000entrenamiento/8.000evaluación; ocho modelos sin selección bidireccional.",
+          "No selección constituye sensibilidad editorial declarada.",
+          "Ejecutamos generador y expresiones originales mediante parse/eval; no agregador dplyr completo.",
+          "Adaptador str_count sólo cuenta guiones bajos.",
+          "Control aditivo conserva porcentajes normalizados.",
+          "No inferimos perjuicio clínico."
+        ]
+      },
+      "error_type_label": "Metrics and measurement",
+      "included_in_citation_reach": true
+    },
+    {
       "id": "XM10",
       "title": "Stereographic Spherical Sliced Wasserstein Distances",
       "error_type": "theory",
@@ -12081,9 +12143,9 @@
         "citations": 1697
       },
       "metrics": {
-        "papers": 10,
-        "with_count": 9,
-        "citations": 1650
+        "papers": 11,
+        "with_count": 10,
+        "citations": 1653
       },
       "dependent-samples": {
         "papers": 13,
@@ -12091,10 +12153,10 @@
         "citations": 504
       }
     },
-    "included_papers": 192,
+    "included_papers": 193,
     "excluded_rectified_papers": 1,
-    "papers_with_count": 183,
-    "citations": 10060,
+    "papers_with_count": 184,
+    "citations": 10063,
     "sources": [
       "OpenAIRE",
       "OpenAlex",
