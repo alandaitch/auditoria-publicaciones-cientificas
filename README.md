@@ -13,7 +13,7 @@ Can AI identify testable errors in peer-reviewed papers? This experiment checks 
 
 ## Coverage
 
-There are **191 public findings**. Another **128** are awaiting publication after verified contact. We wait ten full days from each verified initial inquiry, even when nobody replies. Pending inquiries (**0**) and unconfirmed sends (**1**) are shown only as aggregate counts.
+There are **192 public findings**. Another **127** are awaiting publication after verified contact. We wait ten full days from each verified initial inquiry, even when nobody replies. Pending inquiries (**0**) and unconfirmed sends (**1**) are shown only as aggregate counts.
 
 Each record gives the paper’s claim, the observation, what could change and its limitations. Review priority determines processing order. The citation table counts bibliography links to the included papers. One paper enters one primary issue category. Different papers may share citing works. The table does not establish whether later studies used the questioned result.
 
@@ -28,7 +28,7 @@ Contact status summarizes the exchange without publishing private correspondence
 
 ### Scientific status on 2026-11-27
 
-- Open observation · 187
+- Open observation · 188
 - Technical feedback · 1
 - Correction announced · 1
 - Change verified · 1

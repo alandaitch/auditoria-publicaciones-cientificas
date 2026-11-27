@@ -39,8 +39,8 @@ Confirmed consequential findings per review hour can assess the strategy after a
 
 ## Reading progress
 
-We have documented checks on **69** papers in this population.
-**63** contribute in aggregate only.
+We have documented checks on **71** papers in this population.
+**65** contribute in aggregate only.
 **0** have a published independent verification.
 Each paper counts once, irrespective of the number or outcome of tests.
 Waiting for the author requires a verified notice and a thread check.

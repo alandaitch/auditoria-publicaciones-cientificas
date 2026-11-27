@@ -13,8 +13,8 @@ Enviamos la observación a sus autores. Si aparece evidencia que cambia nuestra 
 
 [Explorá el experimento](https://letsfixscience.com/es.html) · [Preguntas frecuentes](https://letsfixscience.com/es.html#faq)
 
-El sitio muestra **191 observaciones públicas**.
-Otras **128** esperan que pasen diez días completos desde el envío verificado.
+El sitio muestra **192 observaciones públicas**.
+Otras **127** esperan que pasen diez días completos desde el envío verificado.
 Ese plazo corresponde a publicar nuestra ficha. La revista tiene su propio proceso de corrección.
 Las consultas pendientes de envío suman **0**.
 Las consultas cuyo envío falta confirmar suman **1**.
@@ -41,7 +41,7 @@ Las respuestas automáticas, entregas fallidas y contactos cerrados se distingue
 Avance científico de las fichas públicas al **2026-11-27**.
 Cada ficha conserva el detalle del intercambio y su fundamento.
 
-- Observación abierta · 187
+- Observación abierta · 188
 - Aporte técnico · 1
 - Corrección anunciada · 1
 - Cambio verificado · 1
